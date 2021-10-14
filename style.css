@@ -124,11 +124,11 @@ nav {
 .skill_bigbox {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .skill_box {
-  max-width: 350px;
+  max-width: 280px;
   margin: 10px 35px;
 
 }
