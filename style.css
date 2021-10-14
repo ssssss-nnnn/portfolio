@@ -1,0 +1,246 @@
+@charset "utf-8";
+
+* {
+  border: 1px solid red;
+}
+
+/* --------共通部分-------- */
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+  color: #333;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+img{
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.part1 {
+  background-color: #94D0C9;
+  padding-bottom: 200px;
+}
+
+.part2 {
+  background-color: #447AD4;
+  z-index: -1;
+}
+
+.part3 {
+  background-color: #011E51;
+  padding-top: 300px;
+  background-image: url(images/gallary_top.png);
+  background-size: contain;
+}
+
+.top_wave {
+  width: 100%;
+  height: auto;
+  margin-top: -150px;
+  margin-bottom: -15px;
+}
+
+
+.part2 img:last-child{
+  margin-top: 150px;
+
+}
+
+h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px #000E6B;
+  margin-bottom: 70px;
+  padding-top: 50px;
+  font-family: 'Marcellus SC', serif;
+}
+
+h3 {
+  color: #fff;
+  font-size: 30px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ナブ、TOPムービー */
+
+nav {
+  font-size: 1.5em;
+  padding-top: 30px;
+  font-family: 'Marcellus SC', serif;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.menu a :hover{
+  background-color: rgb(131, 156, 209);
+  border-radius: 10%;
+  color: rgb(230, 230, 230);
+}
+
+.menu a+a {
+  margin-left: 40px;
+}
+
+.menu li{
+  color: #333;
+}
+
+.top_video {
+  text-align: center;
+
+}
+
+.top_video video{
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+
+
+/* --------Skill-------- */
+
+
+.part1 {
+  background-image: url(images/TOP1/fish1.png), url(images/TOP1/fish2.png), url(images/TOP1/fish3.png), url(images/TOP1/fish4.png), url(images/TOP1/fish5.png), url(images/TOP1/fish6.png);
+  background-repeat: no-repeat;
+  background-position: 90px 450px, 30px 750px, 90px 1100px, 1340px 600px, 1400px 900px, 1340px 1200px;
+  background-size: 70px auto;
+
+}
+
+.skill_bigbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.skill_box {
+  max-width: 350px;
+  margin: 10px 35px;
+}
+
+.skill_box .skill_box {
+  margin-left: 100px;
+}
+
+.skill_box img {
+  width: 250px;
+  height: auto;
+  margin-bottom: 90px; 
+}
+
+.skill_content img {
+  width: 100px;
+  height: auto;
+  /* 真ん中には？ */
+}
+
+figure img {
+  display: flex;
+  justify-content: center;
+}
+
+/* 効いてない？ */
+figure {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+figcaption p {
+  font-size: 0.8em;
+}
+
+
+/* -----------history----------- */
+
+ /* くじらmp4 */
+/* #bg_video{
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  background-size: cover;
+}  */
+
+.face img{
+  width: 300px;
+  height: auto;
+}
+
+/* 波背景 イルカ*/
+.part2 {
+  background-image: url(images/TOP2/wave.png), url(images/TOP2/wave.png), url(images/TOP2/wave2.png), url(images/TOP2/wave2.png), url(images/TOP2/dolphin1.png), url(images/TOP2/dolphin2.png), url(images/TOP2/dolphin3.png), url(images/TOP2/dolphin4.png);
+  background-repeat: no-repeat;
+  background-position: left 580px, left 1400px, right 900px, right 1720px, 30px 550px, 1360px 950px, 200px 1300px, 1000px 1850px;
+  background-size: auto auto, auto auto, auto auto,auto auto, 300px auto, 300px auto, 300px auto,300px auto;
+}
+
+.face {
+  display: flex;
+  justify-content: center;
+}
+
+.face img{
+  margin: 60px auto;
+}
+
+.p_text {
+  color: #fff;
+  max-width: 750px;
+  margin: 10% auto;
+  z-index: 1;
+}
+
+.p_text p {
+  margin-bottom: 163px;
+}
+
+.p_text p:last-child{
+  padding-bottom: 100px;
+}
+
+/* --------gallary---------- */
+
+.part3 img {
+  width: 158px;
+  height: 343px;
+  /* 常に真ん中に配置するには？ */
+  margin: 10px auto 50px 25%;
+}
+
+/* .part3 a+a :hover{
+  background-image: url(images/TOP3_con/fish.png);
+  background-size: 200px auto;
+  background-position: 100px 50px;
+} */
+
+/* footer */
+footer {
+  height: 3em;
+  background-color: #0B002E;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+small{
+  font-family: 'Homemade Apple', cursive;
+}
