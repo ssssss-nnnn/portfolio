@@ -42,7 +42,7 @@ img{
   width: 100%;
   height: auto;
   margin-top: -150px;
-  margin-bottom: -15px;
+  margin-bottom: -3px;
 }
 
 
@@ -124,11 +124,13 @@ nav {
 .skill_bigbox {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .skill_box {
   max-width: 350px;
   margin: 10px 35px;
+
 }
 
 .skill_box .skill_box {
