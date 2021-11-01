@@ -5,9 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Portfolio</title>
+
+  <!-- ress css -->
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-  <link rel="stylesheet" href="style.css">
+  <!-- cssのリンク -->
+  <link rel="stylesheet" href="style2.css">
+
   <!-- h2のGoogle font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,31 +24,36 @@
 
 <body>
 
-  <div class="wrapper">
+  <div class="wrapper_header">
     <header>
+
       <!-- ナブタブ -->
-      <nav>
+      <nav id="top_part">
         <ul class="menu">
-          <a href="#skill_page">
+          <a href="#top_part">
+            <li>Top</li>
+          </a>
+          <a href="#skill_part">
             <li>Skill</li>
           </a>
-          <a href="#history_page">
+          <a href="#history_part">
             <li>History</li>
           </a>
-          <a href="#gallary_page">
+          <a href="#gallary_part">
             <li>Gallary</li>
           </a>
-          <a href="#contact_page">
+          <a href="contact.html">
             <li class="contact">Contact</li>
           </a>
         </ul>
       </nav>
       <!-- トップの動画 -->
       <div class="top_video">
-        <video src="images/topvideo.mp4" autoplay muted width="700" height="auto"></video>
+        <video id="top_video" src="images/topvideo.mp4" autoplay muted></video>
+        <!-- width="700" height="auto" -->
       </div><!-- .top_video -->
     </header>
-  </div><!-- .wrapper -->
+  </div><!-- .wrapper_header -->
 
 
   <!-- トップ波 -->
@@ -53,32 +62,34 @@
   </div>
   <div class="part1">
     <div class="wrapper">
-      <!-- TOPページ -->
-      <h2 id=skill_page>Skill</h2>
+      <!-- Skillページ -->
+      <h2 id=skill_part>Skill</h2>
 
       <div class="skill_bigbox">
         <!-- グラフ1 -->
         <div class="skill_box">
           <h3>コーディング</h3>
           <img src="images/TOP1/chart1.png" alt="円グラフ1">
-          <div class="skill_content">
-            <figure>
-              <img src="images/TOP1/html.png" alt="">
-              <figcaption>
-                <h4>HTML</h4>
-                <p>Webサイト制作をする上で欠かせない、最も基本的なプログラミング言語であるHTMLを基礎から学んだ。</p>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="skill_content">
-            <figure>
-              <img src="images/TOP1/css.png" alt="">
-              <figcaption>
-                <h4>CSS</h4>
-                <p>Webの装飾、レイアウト構成に加え、各ブラウザや様々な端末に対応するレスポンシブに必要な技術を学習した。</p>
-              </figcaption>
-            </figure>
-          </div>
+          <div class="skill_content_box">
+            <div class="skill_content">
+              <figure>
+                <img src="images/TOP1/html.png" alt="">
+                <figcaption>
+                  <h4>HTML</h4>
+                  <p>Webサイト制作をする上で欠かせない、最も基本的なプログラミング言語であるHTMLを基礎から学んだ。</p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="skill_content">
+              <figure>
+                <img src="images/TOP1/css.png" alt="">
+                <figcaption>
+                  <h4>CSS</h4>
+                  <p>Webの装飾、レイアウト構成に加え、各ブラウザや様々な端末に対応するレスポンシブに必要な技術を学習した。</p>
+                </figcaption>
+              </figure>
+            </div>
+          </div><!-- skill_content_box -->
           <div class="skill_content">
             <figure>
               <img src="images/TOP1/js.png" alt="">
@@ -112,24 +123,26 @@
               </figcaption>
             </figure>
           </div><!-- .skill_content -->
-          <div class="skill_content">
-            <figure>
-              <img src="images/TOP1/photosho.png" alt="">
-              <figcaption>
-                <h4>PhotoShop</h4>
-                <p>レイヤーの理解、写真のレタッチテクニック等を学び、バナー作成、デザインカンプの模写・作成、簡単なGIFアニメの作成を行った。</p>
-              </figcaption>
-            </figure>
-          </div><!-- .skill_content -->
-          <div class="skill_content">
-            <figure>
-              <img src="images/TOP1/xd.png" alt="">
-              <figcaption>
-                <h4>XD</h4>
-                <p>XDの基礎からWebサイト構築、カンプ作成について学んだ。</p>
-              </figcaption>
-            </figure>
-          </div><!-- .skill_content -->
+          <div class="skill_content_box2">
+            <div class="skill_content">
+              <figure>
+                <img src="images/TOP1/photosho.png" alt="">
+                <figcaption>
+                  <h4>PhotoShop</h4>
+                  <p>レイヤーの理解、写真のレタッチテクニック等を学び、バナー作成、デザインカンプの模写・作成、簡単なGIFアニメの作成を行った。</p>
+                </figcaption>
+              </figure>
+            </div><!-- .skill_content -->
+            <div class="skill_content">
+              <figure>
+                <img src="images/TOP1/xd.png" alt="">
+                <figcaption>
+                  <h4>XD</h4>
+                  <p>XDの基礎からWebサイト構築、カンプ作成について学んだ。</p>
+                </figcaption>
+              </figure>
+            </div><!-- .skill_content -->
+          </div><!-- skill_content_box2 -->
           <div class="skill_content">
             <figure>
               <img src="images/TOP1/premia.png" alt="">
@@ -145,24 +158,26 @@
         <div class="skill_box">
           <h3>オフィス</h3>
           <img src="images/TOP1/chart3.png" alt="円グラフ3">
-          <div class="skill_content">
-            <figure>
-              <img src="images/TOP1/excel.png" alt="">
-              <figcaption>
-                <h4>Excel</h4>
-                <p>関数、グラフ作成、データベース、ピポットテーブルを学んだ。</p>
-              </figcaption>
-            </figure>
-          </div><!-- .skill_content -->
-          <div class="skill_content">
-            <figure>
-              <img src="images/TOP1/word.png" alt="">
-              <figcaption>
-                <h4>Word</h4>
-                <p>ビジネス文書作成、グラフの挿入、グラフィック機能の利用等を学んだ。</p>
-              </figcaption>
-            </figure>
-          </div><!-- .skill_content -->
+          <div class="skill_content_box3">
+            <div class="skill_content">
+              <figure>
+                <img src="images/TOP1/excel.png" alt="">
+                <figcaption>
+                  <h4>Excel</h4>
+                  <p>関数、グラフ作成、データベース、ピポットテーブルを学んだ。</p>
+                </figcaption>
+              </figure>
+            </div><!-- .skill_content -->
+            <div class="skill_content">
+              <figure>
+                <img src="images/TOP1/word.png" alt="">
+                <figcaption>
+                  <h4>Word</h4>
+                  <p>ビジネス文書作成、グラフの挿入、グラフィック機能の利用等を学んだ。</p>
+                </figcaption>
+              </figure>
+            </div><!-- .skill_content -->
+          </div><!-- skill_content_box3 -->
           <div class="skill_content">
             <figure>
               <img src="images/TOP1/powerpo.png" alt="">
@@ -181,48 +196,109 @@
   <!--.part1-->
 
   <!-- トップ波 -->
-  <div class="top_wave"><img src="images/history_top.png" alt=""></div>
+  <div class="top_wave">
+    <img src="images/history_top.png" alt="">
+  </div>
 
-
-  <!-- くじら動画 -->
-  <!-- <video src="images/TOP2/whale1.mp4" id="bg_video" autoplay muted width="100%" height="auto"></video> -->
   <div class="part2">
+    <h2 id="history_part">History</h2>
+
+
+    <!-- 動画 -->
+    <div class="container-video">
+
+      <div>
+        <div class="wrapper">
+          <!-- 似顔絵 -->
+          <div class="face"><img src="images/TOP2/face.png" alt="似顔絵"></div>
+          <div class="p_text">
+            <p>1989年、広島で生まれる</p>
+            <p>留学に行くために入った高校で怖気づいて留学に行かなかったので、大学でリベンジをと英文科に。ニュージーランドに1か月、アメリカに半年留学。</p>
+          </div><!-- .p_text -->
+        </div><!-- .wrapper -->
+      </div><!-- クラスなし -->
+
+
+
+      <video id="video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+        <source src="images/TOP2/whale.mp4" type="video/mp4">
+    </div><!-- .container-video -->
+
+    <img class="l-wave1" src="images/TOP2/wave.png" alt="">
+
+
+    <div class="container-video">
+      <div>
+        <div class="wrapper">
+          <div class="p_text">
+            <p>宮島でお土産屋さんの販売員兼島内ガイドとして働く。島中あちこちに知り合いができる。専務にバレないように隣のお店にこっそりもみじ饅頭を買いに行くことも。</p>
+          </div>
+          <div class="p_text">
+            <p>ワーキングホリデーでニュージーランドへ。星空ガイドとして5か月働き、中古車(25万キロ)で南島一周。その後はなかなか仕事が見つからず、やっと決まった日本食レストランも途中長期休暇に入り、最後にまた星空ガイドとして復活し、ビザの期限が来るため帰国。</p>
+          </div>
+        </div><!-- wrapper -->
+
+
+      </div>
+      <video id="video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+        <source src="images/TOP2/dolphin1.mp4" type="video/mp4">
+    </div><!-- .container-video -->
+
+    
+    <img class="r-wave2" src="images/TOP2/wave2.png" alt="">
+
     <div class="wrapper">
-      <h2 id="history_page">History</h2>
-      <!-- 似顔絵 -->
-      <div class="face"><img src="images/TOP2/face.png" alt="似顔絵"></div>
       <div class="p_text">
-        <p>1989年、広島で生まれる</p>
-        <p>留学に行くために入った高校で怖気づいて留学に行かなかったので、大学でリベンジをと英文科に。ニュージーランドに1か月、アメリカに半年留学。</p>
-        <p>宮島でお土産屋さんの販売員兼島内ガイドとして働く。島中あちこちに知り合いができる。一度ご案内した北海道からのお客様が、再度ガイドをしてほしいと訪ねて来られたことも。</p>
-        <p>ワーキングホリデーでニュージーランドへ。星空ガイドとして5か月働き、中古車(25万キロ)で南島一周。その後はなかなか仕事が見つからず、やっと決まった日本食レストランも途中長期休暇に入り、最後にまた星空ガイドとして復活した。1年経ち、ビザの期限が来るため帰国。</p>
-        <p>帰国後、燃え尽き症候群になったが、お財布が悲鳴を上げ始めたため、レンタカーの外国人専用問合せセンターで働く。国際免許を忘れたが車は貸してほしいという問合せが結構多い…</p>
-        <p>人生初のOL。そして初の事務職。仕事でパソコンを触るのも初めて。ExcelとWordはここで身に付けた。</p>
-        <p>何か手に職をつけないとこれから厳しいかもしれないと思い、Webデザイナー養成校に応募。人のデザインやコーディング方法を見て、自分では思いつかないものが見れる環境をと思い、学校という形を選択。たくさんの刺激を受けながら、現在勉強中。</p>
-      </div><!-- .p_text -->
-    </div><!-- .wrapper -->
-   
+        <p>帰国後、燃え尽き症候群になったが、お財布が悲鳴を上げ始めたため、レンタカーの外国人専用問合せセンターで働く。国際免許を忘れたが車は貸してほしいという問合せが結構多い。キレても、泣いても、違法です。</p>
+      </div>
+    </div>
+
+
+
+    <div class="container-video">
+      <div>
+        <div class="wrapper">
+          <div class="p_text">
+            <p>人生初のOL。そして初の事務職。財布を抱え、ランチに行くときは「私OLやってるなぁ」とテンションが上がった。</p>
+          </div>
+          <div class="p_text">
+            <p>何か手に職をつけないとこれから厳しいかもしれないと思い、Webデザイナー養成校に応募。人のデザインやコーディング方法を見て、自分では思いつかないものが見れる環境をと思い、学校という形を選択。たくさんの刺激を受けながら、現在勉強中。</p>
+          </div>
+        </div>
+      </div><!-- クラスなし -->
+
+      <img class="l-wave3" src="images/TOP2/wave.png" alt="">
+
+      <video id="video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+        <source src="images/TOP2/dolphin2.mp4" type="video/mp4">
+    </div><!-- .container-video -->
+
+    <img class="r-wave4" src="images/TOP2/wave2.png" alt="">
+
+    <!-- </div>? -->
+
 
   </div><!-- .part2 -->
-   <!-- トップ波 -->
-  <!-- <div class="top_wave"><img src="images/gallary_top.png" alt=""></div> -->
 
   <div class="part3">
     <div class="wrapper">
-      <h2 id="gallary_page">Gallary</h2>
-      <div class="door_img">
-        <a href="works.html" works.html><img src="images/TOP3_con/door.png" alt=""></a>
-        <a href="s100p.html"><img src="images/TOP3_con/door.png" alt=""></a>
-      </div>
+      <h2 id="gallary_part">Gallary</h2>
+      <div class="door">
+        <a href="works.html">
+          <div class="door_works"></div>
+        </a>
+        <a href="s100p.html">
+          <div class="door_100"></div>
+        </a>
+      </div><!-- .door -->
     </div><!-- .wrapper -->
   </div><!-- .part3 -->
 
   <footer>
-    <small>&copy; Shiori Noda</small>
+    <small>&copy; &nbsp; 2021 &nbsp; Shiori Noda</small>
   </footer>
 
-
-
+  <script src="script2.js"></script>
 </body>
 
 </html>
