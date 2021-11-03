@@ -10,7 +10,7 @@
   <!-- ress css -->
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
   <!-- cssのリンク -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
 
   <!-- h2のGoogle font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,26 +30,18 @@
       <!-- ナブタブ -->
       <nav id="top_part">
         <ul class="menu">
-          <a href="#top_part">
-            <li>Top</li>
-          </a>
-          <a href="#skill_part">
-            <li>Skill</li>
-          </a>
-          <a href="#history_part">
-            <li>History</li>
-          </a>
-          <a href="#gallary_part">
-            <li>Gallary</li>
-          </a>
-          <a href="contact.html">
-            <li class="contact">Contact</li>
-          </a>
+
+          <li><a href="#top_part">Top</a></li>
+          <li><a href="#skill_part">Skill</a></li>
+          <li><a href="#history_part">History</a></li>
+          <li><a href="#gallary_part">Gallary</a></li>
+          <li class="contact"><a href="contact.html">Contact</a></li>
+
         </ul>
       </nav>
       <!-- トップの動画 -->
       <div class="top_video">
-        <video id="top_video" src="images/topvideo.mp4" autoplay muted></video>
+        <video id="top_video" src="images/topvideo.mp4" autoplay muted playsinline></video>
         <!-- width="700" height="auto" -->
       </div><!-- .top_video -->
     </header>
@@ -57,9 +49,11 @@
 
 
   <!-- トップ波 -->
+  <div class="up_icon"><img src="images/TOP1/up.png" alt=""></div>
   <div class="top_wave">
     <img src="images/skill_top.png" alt="">
   </div>
+
   <div class="part1">
     <div class="wrapper">
       <!-- Skillページ -->
@@ -220,7 +214,7 @@
 
 
 
-      <video id="video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+      <video id="video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" playsinline>
         <source src="images/TOP2/whale.mp4" type="video/mp4">
     </div><!-- .container-video -->
 
@@ -229,23 +223,28 @@
 
     <div class="container-video">
       <div>
-        <div class="wrapper">
-          <div class="p_text">
-            <p>宮島でお土産屋さんの販売員兼島内ガイドとして働く。島中あちこちに知り合いができる。専務にバレないように隣のお店にこっそりもみじ饅頭を買いに行くことも。</p>
-          </div>
-          <div class="p_text">
-            <p>ワーキングホリデーでニュージーランドへ。星空ガイドとして5か月働き、中古車(25万キロ)で南島一周。その後はなかなか仕事が見つからず、やっと決まった日本食レストランも途中長期休暇に入り、最後にまた星空ガイドとして復活し、ビザの期限が来るため帰国。</p>
-          </div>
-        </div><!-- wrapper -->
+        <div class="right-wave">
+          <div class="wrapper">
+
+            <div class="p_text">
+              <p>宮島でお土産屋さんの販売員兼島内ガイドとして働く。島中あちこちに知り合いができる。専務にバレないように隣のお店にこっそりもみじ饅頭を買いに行くことも。</p>
+            </div>
+            <div class="p_text">
+              <p>ワーキングホリデーでニュージーランドへ。星空ガイドとして5か月働き、中古車(25万キロ)で南島一周。その後はなかなか仕事が見つからず、やっと決まった日本食レストランも途中長期休暇に入り、最後にまた星空ガイドとして復活し、ビザの期限が来るため帰国。</p>
+            </div>
+            <img class="r-wave2" src="images/TOP2/wave2.png" alt="">
+          </div><!-- wrapper -->
+        </div><!-- right-wave -->
+
 
 
       </div>
-      <video id="video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+      <video id="video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" playsinline>
         <source src="images/TOP2/dolphin1.mp4" type="video/mp4">
     </div><!-- .container-video -->
 
-    
-    <img class="r-wave2" src="images/TOP2/wave2.png" alt="">
+
+
 
     <div class="wrapper">
       <div class="p_text">
@@ -253,29 +252,37 @@
       </div>
     </div>
 
-
+    <img class="l-wave3" src="images/TOP2/wave.png" alt="">
 
     <div class="container-video">
       <div>
-        <div class="wrapper">
-          <div class="p_text">
-            <p>人生初のOL。そして初の事務職。財布を抱え、ランチに行くときは「私OLやってるなぁ」とテンションが上がった。</p>
-          </div>
-          <div class="p_text">
-            <p>何か手に職をつけないとこれから厳しいかもしれないと思い、Webデザイナー養成校に応募。人のデザインやコーディング方法を見て、自分では思いつかないものが見れる環境をと思い、学校という形を選択。たくさんの刺激を受けながら、現在勉強中。</p>
-          </div>
-        </div>
+        <div class="right-wave">
+          <div class="wrapper">
+            <div class="p_text">
+              <p>人生初のOL。そして初の事務職。財布を抱え、ランチに行くときは「私OLやってるなぁ」とテンションが上がった。</p>
+            </div>
+            <div class="p_text">
+              <p>何か手に職をつけないとこれから厳しいかもしれないと思い、Webデザイナー養成校に応募。人のデザインやコーディング方法を見て、自分では思いつかないものが見れる環境をと思い、学校という形を選択。たくさんの刺激を受けながら、現在勉強中。</p>
+            </div>
+            <img class="r-wave4" src="images/TOP2/wave2.png" alt="">
+          </div><!-- wrapper -->
+        </div><!-- right-wave -->
       </div><!-- クラスなし -->
 
-      <img class="l-wave3" src="images/TOP2/wave.png" alt="">
+      
 
-      <video id="video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+      <video id="video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" playsinline>
         <source src="images/TOP2/dolphin2.mp4" type="video/mp4">
     </div><!-- .container-video -->
 
-    <img class="r-wave4" src="images/TOP2/wave2.png" alt="">
+
 
     <!-- </div>? -->
+
+    <!-- <img class="l-wave1" src="images/TOP2/wave.png" alt="">
+    <img class="r-wave2" src="images/TOP2/wave2.png" alt="">
+    <img class="l-wave3" src="images/TOP2/wave.png" alt="">
+    <img class="r-wave4" src="images/TOP2/wave2.png" alt=""> -->
 
 
   </div><!-- .part2 -->
