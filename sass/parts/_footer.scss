@@ -1,0 +1,14 @@
+@use "variables"as v;
+
+footer {
+  height: 3rem;
+  background-color: #0B002E;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+small{
+  font-family: 'Homemade Apple', cursive;
+}

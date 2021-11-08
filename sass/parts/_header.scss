@@ -1,0 +1,52 @@
+@use "variables"as v;
+
+/* ナブ */
+.up_icon{
+  padding-left: 250px;
+}
+
+.up_icon img{
+  width: 25vw;
+  position: fixed;
+  bottom:5vw;
+  right: 5vw;
+  z-index: 9999;
+}
+
+#top_part {
+  font-size: 1rem;
+  padding-top: 30px;
+  font-family: 'Marcellus SC', serif;
+}
+
+// 卒業制作の
+// #g-nav {
+//   /*position:fixed;にし、z-indexの数値を大きくして前面へ*/
+//   position: fixed;
+//   z-index: 9999;
+//   /*ナビのスタート位置と形状*/
+//   top: 0;
+//   left: -120%;
+//   width: 100%;
+//   height: 100vh;
+//   /*ナビの高さ*/
+//   background: rgba(255, 255, 255, 1.0);
+//   /*動き*/
+//   transition: all 0.6s;
+// }
+
+.menu{
+  display: flex;
+}
+
+.top_video{
+  width: 100%;
+  margin-top: 20vw;
+  margin-bottom: 110vw;
+  text-align: center;
+}
+
+.top_video video{
+  width: 100%;
+}
+

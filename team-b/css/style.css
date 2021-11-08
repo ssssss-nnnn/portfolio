@@ -1,7 +1,4 @@
-@charset "utf-8";
-
-
-/* --------共通部分 携帯版-------- */
+@charset "UTF-8";
 html {
   font-size: 100%;
 }
@@ -25,7 +22,7 @@ a {
   text-decoration: none;
 }
 
-li{
+li {
   list-style-type: none;
 }
 
@@ -59,7 +56,7 @@ h2 {
   text-shadow: 2px 2px 5px #000E6B;
   margin-bottom: 15vw;
   padding-top: 40vw;
-  font-family: 'Marcellus SC', serif;
+  font-family: "Marcellus SC", serif;
 }
 
 h3 {
@@ -69,125 +66,145 @@ h3 {
   margin: 50vw auto 4vh auto;
 }
 
-.top_wave{
+.top_wave {
   margin-top: -8vh;
 }
-.top_wave img{
-  vertical-align:bottom;
-  margin-bottom: -.4vw;
+
+.top_wave img {
+  vertical-align: bottom;
+  margin-bottom: -0.4vw;
 }
-
-
-
-/* ----------header---------- */
 
 /* ナブ */
-.up_icon{
-  width: 90%;
-  padding-left: 200px;
+.up_icon {
+  padding-left: 250px;
 }
 
-.up_icon img{
-  text-align: right;
+.up_icon img {
+  width: 25vw;
+  position: fixed;
+  bottom: 5vw;
+  right: 5vw;
+  z-index: 9999;
 }
 
-nav {
+#top_part {
   font-size: 1rem;
   padding-top: 30px;
-  font-family: 'Marcellus SC', serif;
+  font-family: "Marcellus SC", serif;
 }
 
-.menu{
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
-.top_video{
+.top_video {
   width: 100%;
   margin-top: 20vw;
-  margin-bottom: 115vw;
+  margin-bottom: 110vw;
   text-align: center;
 }
 
-.top_video video{
+.top_video video {
   width: 100%;
 }
 
+footer {
+  height: 3rem;
+  background-color: #0B002E;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 
+small {
+  font-family: "Homemade Apple", cursive;
+}
 
 /* ----------Part1 SKILL---------- */
-
 /* 泳ぐ魚 */
-.skill_content_box{
-  background-image: url(images/TOP1/fish7.png);
+.skill_content_box {
+  background-image: url(../images/TOP1/fish7.png);
   background-repeat: 18no-repeat;
   background-size: 17vw auto;
   background-position: 60vw 20vw;
   background-attachment: fixed;
 }
 
-.skill_content_box2{
-  background-image: url(images/TOP1/fish8.png);
+.skill_content_box2 {
+  background-image: url(../images/TOP1/fish8.png);
   background-repeat: no-repeat;
   background-size: 14vw auto;
   background-position: 20vw 20vw;
   background-attachment: fixed;
 }
 
-.skill_content_box3{
-  background-image: url(images/TOP1/fish9.png);
+.skill_content_box3 {
+  background-image: url(../images/TOP1/fish9.png);
   background-repeat: no-repeat;
   background-size: 16vw auto;
   background-position: 60vw 20vw;
   background-attachment: fixed;
 }
-/* 泳ぐ魚終わり */
 
-.skill_box{
+/* 泳ぐ魚終わり */
+.skill_box {
   text-align: center;
-  background-image: url(images/TOP1/buble2.svg), url(images/TOP1/buble2.svg);
+  background-image: url(../images/TOP1/buble2.svg), url(../images/TOP1/buble2.svg);
   background-repeat: no-repeat;
   background-size: 70px;
   background-position: 0 0, 60vw 205vw;
 }
 
 /* 円グラフ */
-.skill_box img{
+.skill_box img {
   width: 70vw;
   margin-bottom: 6vh;
 }
 
 /* アイコン */
-.skill_content img{
+.skill_content img {
   width: 32vw;
   margin: 4vw auto 2vw auto;
 }
 
-h4{
+h4 {
   font-size: 1.3rem;
 }
-.skill_content p{
-  text-align-last: left;
+
+.skill_content p {
+  -moz-text-align-last: left;
+       text-align-last: left;
 }
 
 .part1 {
-  background-image: url(images/TOP1/fish1.png), url(images/TOP1/fish2.png), url(images/TOP1/fish3.png), url(images/TOP1/fish4.png), url(images/TOP1/fish5.png), url(images/TOP1/fish6.png);
+  background-image: url(../images/TOP1/fish1.png), url(../images/TOP1/fish2.png), url(../images/TOP1/fish3.png), url(../images/TOP1/fish4.png), url(../images/TOP1/fish5.png), url(../images/TOP1/fish6.png);
   background-size: 20vw auto;
   background-repeat: no-repeat;
-  background-position: 5vw 95vw, 5vw 470vw, 5vw 840vw, 75vw 445vw, 75vw 805vw, 75vw 1100vw ;
+  background-position: 5vw 95vw, 5vw 470vw, 5vw 840vw, 75vw 445vw, 75vw 805vw, 75vw 1100vw;
   /* background-attachment: fixed, local; */
 }
 
-
 /* ----------Part2 HISTORY---------- */
-
 /* 動画 */
 .container-video {
   position: relative;
   height: 600px;
   overflow: hidden;
   opacity: 0.01;
-  animation: load 1.5s 0.8s ease-out forwards;
+  -webkit-animation: load 1.5s 0.8s ease-out forwards;
+          animation: load 1.5s 0.8s ease-out forwards;
 }
+
 .container-video #video {
   position: absolute;
   top: 50%;
@@ -198,8 +215,15 @@ h4{
   height: auto;
   z-index: -1000;
   overflow: hidden;
-  transform: translate(-50%, -50%) scale(1.05);
+  -webkit-transform: translate(-50%, -50%) scale(1.05);
+          transform: translate(-50%, -50%) scale(1.05);
   z-index: -100;
+}
+
+@-webkit-keyframes load {
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes load {
@@ -213,6 +237,7 @@ h4{
   position: relative;
   height: 100%;
 }
+
 .table-center > div {
   display: table-cell;
   vertical-align: middle;
@@ -221,81 +246,74 @@ h4{
 }
 
 /* 動画ここまで */
-
-
-.face{
+.face {
   text-align: center;
   margin-bottom: 10vh;
-
 }
 
-.face img{
+.face img {
   width: 55vw;
 }
 
-.p_text p{
+.p_text p {
   margin-bottom: 30vw;
   position: relative;
-  z-index: 9999 ;
+  z-index: 9999;
   /* z-index効かない？ */
-
 }
 
-.right-wave{
+.right-wave {
   position: relative;
 }
 
-
-.l-wave1, .r-wave2, .l-wave3, .r-wave4{
+.l-wave1, .r-wave2, .l-wave3, .r-wave4 {
   position: absolute;
   z-index: 100;
 }
 
-
-.l-wave1{
+.l-wave1 {
   margin: -80vw 0;
 }
 
-.r-wave2{
+.r-wave2 {
   top: 10vw;
   right: 0;
 }
 
-.l-wave3{
+.l-wave3 {
   margin: -110vw 0;
 }
 
-.r-wave4{
+.r-wave4 {
   top: 10vw;
   right: 0;
 }
 
-
-
-
 /* ----------Part3 GALLARY---------- */
-.door{
+.door {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-
-.door::before{
-  background-image: url(images/TOP3_con/light.png), url(images/TOP3_con/fish.png), url(images/TOP3_con/fish2.png);
+.door::before {
+  background-image: url(../images/TOP3_con/light.png), url(../images/TOP3_con/fish.png), url(../images/TOP3_con/fish2.png);
   background-repeat: no-repeat;
-  background-size: 50vw auto, 30vw auto,30vw auto;
-  background-position:50% 3vw, 44vw 0, 0 0;
+  background-size: 50vw auto, 30vw auto, 30vw auto;
+  background-position: 50% 3vw, 44vw 0, 0 0;
   opacity: 0;
-  transition-duration: 2s
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
 }
 
-.door:hover{
-  background-image: url(images/TOP3_con/light.png), url(images/TOP3_con/fish.png), url(images/TOP3_con/fish2.png);
+.door:hover {
+  background-image: url(../images/TOP3_con/light.png), url(../images/TOP3_con/fish.png), url(../images/TOP3_con/fish2.png);
   background-repeat: no-repeat;
-  background-size: 50vw auto, 30vw auto,30vw auto;
-  background-position:50% 3vw, 44vw 0, 0 0;
+  background-size: 50vw auto, 30vw auto, 30vw auto;
+  background-position: 50% 3vw, 44vw 0, 0 0;
   opacity: 1;
-
   /* animation: fadeIn 3s ease 0s 1 normal;
   animation-name: fadein;
   animation-duration: 1.5s; */
@@ -312,20 +330,17 @@ h4{
   }
 } */
 /* 子要素(ドア)にもアニメーションの設定がかかってしまう */
-
-.door a{
+.door a {
   width: 30vw;
   height: auto;
   margin-top: 10vw;
   margin-bottom: 25vw;
 }
 
-
-
-.door_works{
+.door_works {
   margin-top: 10vw;
   margin-bottom: 25vw;
-  background-image: url(images/TOP3_con/cando2.png);
+  background-image: url(../images/TOP3_con/cando2.png);
   width: 30vw;
   height: 243px;
   background-size: 60vw auto;
@@ -334,14 +349,14 @@ h4{
   background-position: right bottom;
 }
 
-.door_works:hover{
+.door_works:hover {
   background-position: left bottom;
 }
 
-.door_100{
+.door_100 {
   margin-top: 10vw;
   margin-bottom: 25vw;
-  background-image: url(images/TOP3_con/cando2.png);
+  background-image: url(../images/TOP3_con/cando2.png);
   width: 30vw;
   height: 243px;
   background-size: 60vw auto;
@@ -350,78 +365,72 @@ h4{
   background-position: right bottom;
 }
 
-.door_100:hover{
-  background-image: url(images/TOP3_con/cando2.png);
+.door_100:hover {
+  background-image: url(../images/TOP3_con/cando2.png);
   background-position: left bottom;
 }
-
-
 
 /* クリックしたとき */
 /* #door_works.open {
   display: none;
-  background-image: url(images/TOP3_con/dooropen.png), url(images/TOP3_con/dooropen.png);
+  background-image: url(../images/TOP3_con/dooropen.png), url(../images/TOP3_con/dooropen.png);
   width: 30vw;
   height: auto;
   margin-top: 10vw;
   margin-bottom: 25vw;
 } */
-
-
-/* footer */
-footer {
-  height: 3rem;
-  background-color: #0B002E;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-small{
-  font-family: 'Homemade Apple', cursive;
-}
-
-/* ---------Contact----------- */
-.contact_body{
+.contact_body {
   background-color: #4fb9c6;
 }
 
-.bottom_img{
-display: flex;
-margin: 10vw auto;
-width: 70%;
+.contact_h2 {
+  margin-bottom: 12vw;
+  padding-top: 12vw;
 }
 
-#name, #email, #message{
+.bottom_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10vw auto;
+  width: 60%;
+}
+
+#name, #email, #message {
   background-color: #c0dee2;
+  border-radius: 10px;
 }
 
-label{
+label {
   font-size: 1.3rem;
 }
 
-input{
+input {
   width: 100%;
   padding: 1.1rem;
 }
 
-textarea{
+textarea {
   width: 100%;
   height: 7rem;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
-/* .bubble_img img{
-  z-index: -100;
-} */
-/* 
-.bubble1{
-  width: 25vw;
-  height: auto;
+input, textarea {
+  margin-bottom: 20px;
 }
 
-.bubble2{
-  width: 25vw;
-  height: auto;
-} */
+.button_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.button {
+  color: #fff;
+  background-color: #585858;
+  width: 10rem;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */

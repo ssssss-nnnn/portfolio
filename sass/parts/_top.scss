@@ -1,124 +1,10 @@
-@charset "utf-8";
-
-
-/* --------共通部分 携帯版-------- */
-html {
-  font-size: 100%;
-}
-
-body {
-  font-family: "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
-  color: #333;
-}
-
-.wrapper_header {
-  max-width: 310px;
-  margin: 0 auto;
-}
-
-.wrapper {
-  max-width: 280px;
-  margin: 0 auto;
-}
-
-a {
-  text-decoration: none;
-}
-
-li{
-  list-style-type: none;
-}
-
-img {
-  max-width: 100%;
-}
-
-.part1 {
-  background-color: #94D0C9;
-  padding-bottom: 80vw;
-}
-
-.part2 {
-  background-color: #447AD4;
-  color: #fff;
-  padding-bottom: 20vw;
-}
-
-.part3 {
-  background-color: #011E51;
-  padding-top: 35vw;
-  background-image: url(../images/gallary_top.png);
-  background-size: contain;
-  background-position: left -3px;
-}
-
-h2 {
-  color: #fff;
-  text-align: center;
-  font-size: 4rem;
-  text-shadow: 2px 2px 5px #000E6B;
-  margin-bottom: 15vw;
-  padding-top: 40vw;
-  font-family: 'Marcellus SC', serif;
-}
-
-h3 {
-  color: #fff;
-  font-size: 2rem;
-  text-align: center;
-  margin: 50vw auto 4vh auto;
-}
-
-.top_wave{
-  margin-top: -8vh;
-}
-.top_wave img{
-  vertical-align:bottom;
-  margin-bottom: -.4vw;
-}
-
-
-
-/* ----------header---------- */
-
-/* ナブ */
-.up_icon{
-  width: 90%;
-  padding-left: 200px;
-}
-
-.up_icon img{
-  text-align: right;
-}
-
-nav {
-  font-size: 1rem;
-  padding-top: 30px;
-  font-family: 'Marcellus SC', serif;
-}
-
-.menu{
-  display: flex;
-}
-
-.top_video{
-  width: 100%;
-  margin-top: 20vw;
-  margin-bottom: 115vw;
-  text-align: center;
-}
-
-.top_video video{
-  width: 100%;
-}
-
-
+@use "variables"as v;
 
 /* ----------Part1 SKILL---------- */
 
 /* 泳ぐ魚 */
 .skill_content_box{
-  background-image: url(images/TOP1/fish7.png);
+  background-image: url(../images/TOP1/fish7.png);
   background-repeat: 18no-repeat;
   background-size: 17vw auto;
   background-position: 60vw 20vw;
@@ -126,7 +12,7 @@ nav {
 }
 
 .skill_content_box2{
-  background-image: url(images/TOP1/fish8.png);
+  background-image: url(../images/TOP1/fish8.png);
   background-repeat: no-repeat;
   background-size: 14vw auto;
   background-position: 20vw 20vw;
@@ -134,7 +20,7 @@ nav {
 }
 
 .skill_content_box3{
-  background-image: url(images/TOP1/fish9.png);
+  background-image: url(../images/TOP1/fish9.png);
   background-repeat: no-repeat;
   background-size: 16vw auto;
   background-position: 60vw 20vw;
@@ -144,7 +30,7 @@ nav {
 
 .skill_box{
   text-align: center;
-  background-image: url(images/TOP1/buble2.svg), url(images/TOP1/buble2.svg);
+  background-image: url(../images/TOP1/buble2.svg), url(../images/TOP1/buble2.svg);
   background-repeat: no-repeat;
   background-size: 70px;
   background-position: 0 0, 60vw 205vw;
@@ -170,7 +56,7 @@ h4{
 }
 
 .part1 {
-  background-image: url(images/TOP1/fish1.png), url(images/TOP1/fish2.png), url(images/TOP1/fish3.png), url(images/TOP1/fish4.png), url(images/TOP1/fish5.png), url(images/TOP1/fish6.png);
+  background-image: url(../images/TOP1/fish1.png), url(../images/TOP1/fish2.png), url(../images/TOP1/fish3.png), url(../images/TOP1/fish4.png), url(../images/TOP1/fish5.png), url(../images/TOP1/fish6.png);
   background-size: 20vw auto;
   background-repeat: no-repeat;
   background-position: 5vw 95vw, 5vw 470vw, 5vw 840vw, 75vw 445vw, 75vw 805vw, 75vw 1100vw ;
@@ -281,7 +167,7 @@ h4{
 
 
 .door::before{
-  background-image: url(images/TOP3_con/light.png), url(images/TOP3_con/fish.png), url(images/TOP3_con/fish2.png);
+  background-image: url(../images/TOP3_con/light.png), url(../images/TOP3_con/fish.png), url(../images/TOP3_con/fish2.png);
   background-repeat: no-repeat;
   background-size: 50vw auto, 30vw auto,30vw auto;
   background-position:50% 3vw, 44vw 0, 0 0;
@@ -290,7 +176,7 @@ h4{
 }
 
 .door:hover{
-  background-image: url(images/TOP3_con/light.png), url(images/TOP3_con/fish.png), url(images/TOP3_con/fish2.png);
+  background-image: url(../images/TOP3_con/light.png), url(../images/TOP3_con/fish.png), url(../images/TOP3_con/fish2.png);
   background-repeat: no-repeat;
   background-size: 50vw auto, 30vw auto,30vw auto;
   background-position:50% 3vw, 44vw 0, 0 0;
@@ -325,7 +211,7 @@ h4{
 .door_works{
   margin-top: 10vw;
   margin-bottom: 25vw;
-  background-image: url(images/TOP3_con/cando2.png);
+  background-image: url(../images/TOP3_con/cando2.png);
   width: 30vw;
   height: 243px;
   background-size: 60vw auto;
@@ -341,7 +227,7 @@ h4{
 .door_100{
   margin-top: 10vw;
   margin-bottom: 25vw;
-  background-image: url(images/TOP3_con/cando2.png);
+  background-image: url(../images/TOP3_con/cando2.png);
   width: 30vw;
   height: 243px;
   background-size: 60vw auto;
@@ -351,7 +237,7 @@ h4{
 }
 
 .door_100:hover{
-  background-image: url(images/TOP3_con/cando2.png);
+  background-image: url(../images/TOP3_con/cando2.png);
   background-position: left bottom;
 }
 
@@ -360,68 +246,9 @@ h4{
 /* クリックしたとき */
 /* #door_works.open {
   display: none;
-  background-image: url(images/TOP3_con/dooropen.png), url(images/TOP3_con/dooropen.png);
+  background-image: url(../images/TOP3_con/dooropen.png), url(../images/TOP3_con/dooropen.png);
   width: 30vw;
   height: auto;
   margin-top: 10vw;
   margin-bottom: 25vw;
-} */
-
-
-/* footer */
-footer {
-  height: 3rem;
-  background-color: #0B002E;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-small{
-  font-family: 'Homemade Apple', cursive;
-}
-
-/* ---------Contact----------- */
-.contact_body{
-  background-color: #4fb9c6;
-}
-
-.bottom_img{
-display: flex;
-margin: 10vw auto;
-width: 70%;
-}
-
-#name, #email, #message{
-  background-color: #c0dee2;
-}
-
-label{
-  font-size: 1.3rem;
-}
-
-input{
-  width: 100%;
-  padding: 1.1rem;
-}
-
-textarea{
-  width: 100%;
-  height: 7rem;
-  padding: .5rem;
-}
-
-/* .bubble_img img{
-  z-index: -100;
-} */
-/* 
-.bubble1{
-  width: 25vw;
-  height: auto;
-}
-
-.bubble2{
-  width: 25vw;
-  height: auto;
 } */

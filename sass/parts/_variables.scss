@@ -1,0 +1,63 @@
+//変数準備
+$w-font: #fff;
+$b-font: #333;
+
+//関数準備
+@function rem($px, $base: 16) {
+  @return $px / $base * 1rem;
+}
+
+//mediaquery1
+$mobile: 415px;
+
+@mixin mb {
+  @media (min-width: ($mobile)) {
+    @content;
+  }
+}
+
+// //mediaquery2
+$tablet-med: 769px;
+
+@mixin me {
+  @media (min-width: ($tablet-med)) {
+    @content;
+  }
+}
+
+//mediaquery3
+$tablet: 961px;
+
+@mixin tb {
+  @media (min-width: ($tablet)) {
+    @content;
+  }
+}
+
+//mediaquery4
+$pro: 1025px;
+
+@mixin pr {
+  @media (min-width: ($pro)) {
+    @content;
+  }
+}
+
+//mediaquery5
+$about: 1462px;
+
+@mixin ab {
+  @media (min-width: ($about)) {
+    @content;
+  }
+}
+
+//mediaquery6
+$pc: 1920px;
+
+@mixin pc {
+  @media (min-width: ($pc)) {
+    @content;
+  }
+}
+
