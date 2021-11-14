@@ -1,5 +1,7 @@
 @use "variables"as v;
 
+// @include v
+
 /* ナブ */
 .up_icon{
   padding-left: 250px;
@@ -27,8 +29,12 @@
 .top_video{
   width: 100%;
   margin-top: 20vw;
-  margin-bottom: 90vw;
+  margin-bottom: 80vw;
   text-align: center;
+
+  @include v.mb{
+  margin-bottom: 20vw;
+  }
 }
 
 .top_video video{
