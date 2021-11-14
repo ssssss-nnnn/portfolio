@@ -11,7 +11,7 @@ $b-font: #333;
 $mobile: 414px;
 
 @mixin mb {
-  @media (min-width: ($mobile)) {
+  @media (max-width: ($mobile)) {
     @content;
   }
 }
@@ -20,7 +20,7 @@ $mobile: 414px;
 $tablet-med: 767px;
 
 @mixin me {
-  @media (min-width: ($tablet-med)) {
+  @media (max-width: ($tablet-med)) {
     @content;
   }
 }
@@ -29,7 +29,7 @@ $tablet-med: 767px;
 $tablet: 959px;
 
 @mixin tb {
-  @media (min-width: ($tablet)) {
+  @media (max-width: ($tablet)) {
     @content;
   }
 }
@@ -38,7 +38,7 @@ $tablet: 959px;
 $pro: 1023px;
 
 @mixin pr {
-  @media (min-width: ($pro)) {
+  @media (max-width: ($pro)) {
     @content;
   }
 }
@@ -47,7 +47,7 @@ $pro: 1023px;
 $about: 1460px;
 
 @mixin ab {
-  @media (min-width: ($about)) {
+  @media (max-width: ($about)) {
     @content;
   }
 }
@@ -56,7 +56,7 @@ $about: 1460px;
 $pc: 1918px;
 
 @mixin pc {
-  @media (min-width: ($pc)) {
+  @media (max-width: ($pc)) {
     @content;
   }
 }
