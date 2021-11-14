@@ -8,7 +8,7 @@ $b-font: #333;
 }
 
 //mediaquery1
-$mobile: 413px;
+$mobile: 414px;
 
 @mixin mb {
   @media (min-width: ($mobile)) {
