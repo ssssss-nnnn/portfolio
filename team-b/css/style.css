@@ -103,13 +103,8 @@ h3 {
 .top_video {
   width: 100%;
   margin-top: 20vw;
-  margin-bottom: 80vw;
+  margin-bottom: 60vw;
   text-align: center;
-}
-@media (max-width: 414px) {
-  .top_video {
-    margin-bottom: 70vw;
-  }
 }
 
 .top_video video {

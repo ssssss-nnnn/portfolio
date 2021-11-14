@@ -29,12 +29,8 @@
 .top_video{
   width: 100%;
   margin-top: 20vw;
-  margin-bottom: 80vw;
+  margin-bottom: 60vw;
   text-align: center;
-
-  @include v.mb{
-  margin-bottom: 70vw;
-  }
 }
 
 .top_video video{
