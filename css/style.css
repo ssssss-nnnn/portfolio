@@ -36,7 +36,7 @@ img {
 }
 @media (min-width: 414px) {
   .part1 {
-    padding-bottom: 50vw;
+    padding-bottom: 63vw;
   }
 }
 
@@ -44,6 +44,11 @@ img {
   background-color: #447AD4;
   color: #fff;
   padding-bottom: 20vw;
+}
+@media (min-width: 414px) {
+  .part2 {
+    padding-bottom: 0;
+  }
 }
 
 .part3 {
