@@ -31,6 +31,10 @@
   margin-top: 20vw;
   margin-bottom: 80vw;
   text-align: center;
+
+  @include v.mb{
+    margin-bottom: 60vw;
+  }
 }
 
 .top_video video{
