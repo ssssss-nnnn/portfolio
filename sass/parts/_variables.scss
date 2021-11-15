@@ -11,22 +11,22 @@ $b-font: #333;
 $mobile: 414px;
 
 @mixin mb {
-  @media (max-width: ($mobile)) {
+  @media (min-width: ($mobile)) {
     @content;
   }
 }
 
 // //mediaquery2
-$tablet-med: 767px;
+$tablet-med: 769px;
 
 @mixin me {
-  @media (max-width: ($tablet-med)) {
+  @media (min-width: ($tablet-med)) {
     @content;
   }
 }
 
 //mediaquery3
-$tablet: 959px;
+$tablet: 960px;
 
 @mixin tb {
   @media (max-width: ($tablet)) {
@@ -35,28 +35,28 @@ $tablet: 959px;
 }
 
 //mediaquery4
-$pro: 1023px;
+$pro: 1025px;
 
 @mixin pr {
-  @media (max-width: ($pro)) {
+  @media (min-width: ($pro)) {
     @content;
   }
 }
 
 //mediaquery5
-$about: 1460px;
+$about: 1462px;
 
 @mixin ab {
-  @media (max-width: ($about)) {
+  @media (min-width: ($about)) {
     @content;
   }
 }
 
 //mediaquery6
-$pc: 1918px;
+$pc: 1920px;
 
 @mixin pc {
-  @media (max-width: ($pc)) {
+  @media (min-width: ($pc)) {
     @content;
   }
 }

@@ -34,6 +34,11 @@ img {
   background-color: #94D0C9;
   padding-bottom: 80vw;
 }
+@media (min-width: 414px) {
+  .part1 {
+    padding-bottom: 50vw;
+  }
+}
 
 .part2 {
   background-color: #447AD4;
@@ -74,6 +79,11 @@ h3 {
   vertical-align: bottom;
   margin-bottom: -0.4vw;
 }
+@media (min-width: 414px) {
+  .top_wave img {
+    margin-bottom: -3.24vw;
+  }
+}
 
 /* ナブ */
 .up_icon {
@@ -106,7 +116,7 @@ h3 {
   margin-bottom: 80vw;
   text-align: center;
 }
-@media (max-width: 414px) {
+@media (min-width: 414px) {
   .top_video {
     margin-bottom: 60vw;
   }
@@ -197,6 +207,14 @@ h4 {
   background-repeat: no-repeat;
   background-position: 5vw 95vw, 5vw 470vw, 5vw 840vw, 75vw 445vw, 75vw 805vw, 75vw 1100vw;
   /* background-attachment: fixed, local; */
+}
+@media (min-width: 414px) {
+  .part1 {
+    background-image: url(../images/TOP1/fish1.png), url(../images/TOP1/fish2.png), url(../images/TOP1/fish3.png), url(../images/TOP1/fish4.png), url(../images/TOP1/fish5.png), url(../images/TOP1/fish6.png);
+    background-size: 20vw auto;
+    background-repeat: no-repeat;
+    background-position: 5vw 95vw, 5vw 440vw, 5vw 787vw, 75vw 420vw, 75vw 765vw, 75vw 1041vw;
+  }
 }
 
 /* ----------Part2 HISTORY---------- */

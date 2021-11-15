@@ -34,6 +34,10 @@ img {
 .part1 {
   background-color: #94D0C9;
   padding-bottom: 80vw;
+
+  @include v.mb{
+    padding-bottom: 50vw;
+  }
 }
 
 .part2 {
@@ -73,6 +77,10 @@ h3 {
 .top_wave img{
   vertical-align:bottom;
   margin-bottom: -.4vw;
+
+  @include v.mb{
+    margin-bottom: -3.24vw;
+  }
 }
 
 
