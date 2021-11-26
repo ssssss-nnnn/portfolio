@@ -86,7 +86,7 @@ h3 {
 }
 @media (min-width: 414px) {
   .top_wave img {
-    margin-bottom: -3.24vw;
+    margin-bottom: -2vw;
   }
 }
 
@@ -346,6 +346,11 @@ h4 {
   animation-name: fadein;
   animation-duration: 1.5s; */
 }
+@media (min-width: 414px) {
+  .door:hover {
+    background-position: 50% 3vw, 40vw 0, 0 0;
+  }
+}
 
 /* @keyframes fadein{
   from{
@@ -376,6 +381,11 @@ h4 {
   cursor: pointer;
   background-position: right bottom;
 }
+@media (min-width: 414px) {
+  .door_works {
+    height: 290px;
+  }
+}
 
 .door_works:hover {
   background-position: left bottom;
@@ -391,6 +401,11 @@ h4 {
   display: block;
   cursor: pointer;
   background-position: right bottom;
+}
+@media (min-width: 414px) {
+  .door_100 {
+    height: 290px;
+  }
 }
 
 .door_100:hover {
