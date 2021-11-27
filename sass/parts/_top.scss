@@ -131,7 +131,12 @@ h4{
   position: relative;
   z-index: 9999 ;
   /* z-index効かない？ */
+}
 
+.p_text p:nth-of-type(3){
+  @include v.mb{
+    margin-top: 22vw;
+  }
 }
 
 .right-wave{
@@ -190,7 +195,7 @@ h4{
   opacity: 1;
 
   @include v.mb{
-    background-position: 50% 3vw, 40vw 0,0 0;
+    background-position: 50% 3vw, 36vw 0,0 0;
   }
 
   /* animation: fadeIn 3s ease 0s 1 normal;

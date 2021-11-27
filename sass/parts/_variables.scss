@@ -17,7 +17,7 @@ $mobile: 414px;
 }
 
 //mediaquery2
-$tablet-med: 769px;
+$tablet-med: 768px;
 
 @mixin me {
   @media (min-width: ($tablet-med)) {

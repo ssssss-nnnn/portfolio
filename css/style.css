@@ -102,6 +102,11 @@ h3 {
   right: 5vw;
   z-index: 9999;
 }
+@media (min-width: 768px) {
+  .up_icon img {
+    width: 20vw;
+  }
+}
 
 #top_part {
   font-size: 1rem;
@@ -290,6 +295,12 @@ h4 {
   /* z-index効かない？ */
 }
 
+@media (min-width: 414px) {
+  .p_text p:nth-of-type(3) {
+    margin-top: 22vw;
+  }
+}
+
 .right-wave {
   position: relative;
 }
@@ -348,7 +359,7 @@ h4 {
 }
 @media (min-width: 414px) {
   .door:hover {
-    background-position: 50% 3vw, 40vw 0, 0 0;
+    background-position: 50% 3vw, 36vw 0, 0 0;
   }
 }
 
