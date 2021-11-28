@@ -27,6 +27,12 @@ body {
   }
 }
 
+.part2_wrapper{
+  @include v.me{
+    max-width: 60%
+  }
+}
+
 a {
   text-decoration: none;
 }
@@ -45,6 +51,10 @@ img {
 
   @include v.mb{
     padding-bottom: 63vw;
+  }
+
+  @include v.me{
+    padding-bottom: 52vw;
   }
 }
 
@@ -101,6 +111,7 @@ h3 {
 
   @include v.me{
     margin-bottom: -.5vw;
+    margin-top: -7vw;
   }
 }
 

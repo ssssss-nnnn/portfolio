@@ -28,6 +28,12 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+  .part2_wrapper {
+    max-width: 60%;
+  }
+}
+
 a {
   text-decoration: none;
 }
@@ -47,6 +53,11 @@ img {
 @media (min-width: 414px) {
   .part1 {
     padding-bottom: 63vw;
+  }
+}
+@media (min-width: 768px) {
+  .part1 {
+    padding-bottom: 52vw;
   }
 }
 
@@ -108,6 +119,7 @@ h3 {
 @media (min-width: 768px) {
   .top_wave img {
     margin-bottom: -0.5vw;
+    margin-top: -7vw;
   }
 }
 
@@ -315,6 +327,11 @@ h4 {
           transform: translate(-50%, -50%) scale(1.05);
   z-index: -100;
 }
+@media (min-width: 768px) {
+  .container-video #video {
+    width: 150%;
+  }
+}
 
 @-webkit-keyframes load {
   100% {
@@ -350,6 +367,11 @@ h4 {
 .face img {
   width: 55vw;
 }
+@media (min-width: 768px) {
+  .face img {
+    width: 45vw;
+  }
+}
 
 .p_text p {
   margin-bottom: 30vw;
@@ -381,9 +403,19 @@ h4 {
   top: 10vw;
   right: 0;
 }
+@media (min-width: 768px) {
+  .r-wave2 {
+    top: 0.3vw;
+  }
+}
 
 .l-wave3 {
   margin: -110vw 0;
+}
+@media (min-width: 768px) {
+  .l-wave3 {
+    margin: -60vw 0;
+  }
 }
 
 .r-wave4 {
@@ -423,6 +455,12 @@ h4 {
 @media (min-width: 414px) {
   .door:hover {
     background-position: 50% 3vw, 36vw 0, 0 0;
+  }
+}
+@media (min-width: 768px) {
+  .door:hover {
+    background-size: 45vw auto, 20vw auto, 20vw auto;
+    background-position: 43% 3vw, 38vw 0, 0 0;
   }
 }
 

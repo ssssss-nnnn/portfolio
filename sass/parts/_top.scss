@@ -111,6 +111,7 @@ h4{
   opacity: 0.01;
   animation: load 1.5s 0.8s ease-out forwards;
 }
+
 .container-video #video {
   position: absolute;
   top: 50%;
@@ -123,6 +124,10 @@ h4{
   overflow: hidden;
   transform: translate(-50%, -50%) scale(1.05);
   z-index: -100;
+
+  @include v.me{
+    width: 150%;
+  }
 }
 
 @keyframes load {
@@ -154,6 +159,10 @@ h4{
 
 .face img{
   width: 55vw;
+
+  @include v.me{
+    width: 45vw;
+  }
 }
 
 .p_text p{
@@ -187,10 +196,19 @@ h4{
 .r-wave2{
   top: 10vw;
   right: 0;
+
+  @include v.me{
+    top: .3vw;
+  }
 }
 
 .l-wave3{
   margin: -110vw 0;
+
+  @include v.me{
+    margin: -60vw 0;
+  }
+
 }
 
 .r-wave4{
@@ -226,6 +244,11 @@ h4{
 
   @include v.mb{
     background-position: 50% 3vw, 36vw 0,0 0;
+  }
+
+  @include v.me{
+    background-size: 45vw auto, 20vw auto,20vw auto;
+    background-position: 43% 3vw, 38vw 0,0 0;
   }
 
   /* animation: fadeIn 3s ease 0s 1 normal;
