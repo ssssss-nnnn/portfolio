@@ -24,7 +24,7 @@ body {
 }
 @media (min-width: 768px) {
   .wrapper {
-    max-width: 80%;
+    max-width: 78%;
   }
 }
 
@@ -84,6 +84,11 @@ h3 {
   font-size: 2rem;
   text-align: center;
   margin: 50vw auto 4vh auto;
+}
+@media (min-width: 768px) {
+  h3 {
+    font-size: 1.7rem;
+  }
 }
 
 .top_wave {
@@ -207,10 +212,22 @@ small {
 /* 泳ぐ魚終わり */
 .skill_box {
   text-align: center;
-  background-image: url(../images/TOP1/buble2.svg), url(../images/TOP1/buble2.svg);
+  background-image: url(../images/TOP1/bubble2.png), url(../images/TOP1/bubble2.png);
   background-repeat: no-repeat;
   background-size: 70px;
   background-position: 0 0, 60vw 205vw;
+}
+@media (min-width: 414px) {
+  .skill_box {
+    background-position: 0 0, 50vw 205vw;
+  }
+}
+@media (min-width: 768px) {
+  .skill_box {
+    width: 30vw;
+    background-image: none;
+    padding: 0 2vw;
+  }
 }
 
 /* 円グラフ */
@@ -224,14 +241,26 @@ small {
   width: 32vw;
   margin: 4vw auto 2vw auto;
 }
+@media (min-width: 768px) {
+  .skill_content img {
+    width: 12vw;
+  }
+}
 
 h4 {
   font-size: 1.3rem;
+  margin-bottom: 0.5rem;
 }
 
 .skill_content p {
   -moz-text-align-last: left;
        text-align-last: left;
+}
+@media (min-width: 768px) {
+  .skill_content p {
+    font-size: 0.8rem;
+    height: 5rem;
+  }
 }
 
 .part1 {

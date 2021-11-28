@@ -81,6 +81,10 @@ h3 {
   font-size: 2rem;
   text-align: center;
   margin: 50vw auto 4vh auto;
+
+  @include v.me{
+    font-size: 1.7rem;
+  }
 }
 
 .top_wave{
