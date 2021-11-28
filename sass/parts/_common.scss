@@ -12,6 +12,10 @@ body {
 .wrapper_header {
   max-width: 310px;
   margin: 0 auto;
+
+  @include v.me{
+    max-width: 70%;
+  }
 }
 
 .wrapper {

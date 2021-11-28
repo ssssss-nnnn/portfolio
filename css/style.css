@@ -12,6 +12,11 @@ body {
   max-width: 310px;
   margin: 0 auto;
 }
+@media (min-width: 768px) {
+  .wrapper_header {
+    max-width: 70%;
+  }
+}
 
 .wrapper {
   max-width: 280px;
@@ -104,7 +109,7 @@ h3 {
 }
 @media (min-width: 768px) {
   .up_icon img {
-    width: 20vw;
+    width: 18vw;
   }
 }
 
@@ -129,6 +134,11 @@ h3 {
 @media (min-width: 414px) {
   .top_video {
     margin-bottom: 60vw;
+  }
+}
+@media (min-width: 768px) {
+  .top_video {
+    margin-bottom: 45vw;
   }
 }
 
