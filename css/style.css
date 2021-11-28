@@ -22,6 +22,11 @@ body {
   max-width: 280px;
   margin: 0 auto;
 }
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 80%;
+  }
+}
 
 a {
   text-decoration: none;
@@ -166,10 +171,18 @@ small {
 }
 
 /* ----------Part1 SKILL---------- */
+@media (min-width: 768px) {
+  .skill_bigbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 /* 泳ぐ魚 */
 .skill_content_box {
   background-image: url(../images/TOP1/fish7.png);
-  background-repeat: 18no-repeat;
+  background-repeat: no-repeat;
   background-size: 17vw auto;
   background-position: 60vw 20vw;
   background-attachment: fixed;

@@ -2,10 +2,16 @@
 // @include v
 /* ----------Part1 SKILL---------- */
 
+.skill_bigbox{
+  @include v.me{
+    display: flex;
+  }
+}
+
 /* 泳ぐ魚 */
 .skill_content_box{
   background-image: url(../images/TOP1/fish7.png);
-  background-repeat: 18no-repeat;
+  background-repeat: no-repeat;
   background-size: 17vw auto;
   background-position: 60vw 20vw;
   background-attachment: fixed;
@@ -34,6 +40,8 @@
   background-repeat: no-repeat;
   background-size: 70px;
   background-position: 0 0, 60vw 205vw;
+
+  @include v.me{}
 }
 
 /* 円グラフ */
