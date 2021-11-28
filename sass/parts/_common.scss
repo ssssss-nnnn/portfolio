@@ -84,6 +84,7 @@ h3 {
 
   @include v.me{
     font-size: 1.7rem;
+    margin: 10vw auto 4vh auto;
   }
 }
 
@@ -96,6 +97,10 @@ h3 {
 
   @include v.mb{
     margin-bottom: -2vw;
+  }
+
+  @include v.me{
+    margin-bottom: -.5vw;
   }
 }
 
