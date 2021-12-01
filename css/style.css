@@ -535,6 +535,13 @@ h4 {
     background-size: 52vw auto;
   }
 }
+@media (max-width: 960px) {
+  .door_works {
+    width: 24vw;
+    height: 500px;
+    background-size: 48vw auto;
+  }
+}
 
 .door_works:hover {
   background-position: left bottom;
@@ -561,6 +568,13 @@ h4 {
     width: 26vw;
     height: 430px;
     background-size: 52vw auto;
+  }
+}
+@media (max-width: 960px) {
+  .door_100 {
+    width: 24vw;
+    height: 500px;
+    background-size: 48vw auto;
   }
 }
 
