@@ -15,6 +15,11 @@
   background-size: 17vw auto;
   background-position: 60vw 20vw;
   background-attachment: fixed;
+
+  @include v.me{
+    background-size: 8vw auto;
+    background-position: 16vw 5vw;
+  }
 }
 
 .skill_content_box2{
@@ -23,6 +28,11 @@
   background-size: 14vw auto;
   background-position: 20vw 20vw;
   background-attachment: fixed;
+
+  @include v.me{
+    background-size: 8vw auto;
+    background-position: 50vw 50vw;
+  }
 }
 
 .skill_content_box3{
@@ -31,6 +41,11 @@
   background-size: 16vw auto;
   background-position: 60vw 20vw;
   background-attachment: fixed;
+
+  @include v.me{
+    background-size: 8vw auto;
+    background-position: 77vw 20vw;
+  }
 }
 /* 泳ぐ魚終わり */
 
@@ -95,7 +110,7 @@ h4{
 
   @include v.me{
     background-image: url(../images/TOP1/fish1.png), url(../images/TOP1/fish2.png), url(../images/TOP1/fish3.png), url(../images/TOP1/fish4.png), url(../images/TOP1/fish5.png), url(../images/TOP1/fish6.png),url(../images/TOP1/bubble2.png),url(../images/TOP1/bubble2.png),url(../images/TOP1/bubble2.png),url(../images/TOP1/bubble2.png),;
-    background-size: 10vw auto;
+    background-size: 8vw auto;
     background-position: 5vw 62vw, 3vw 182vw, 5vw 260vw, 87vw 62vw, 85vw 182vw, 87vw 260vw,5vw 100vw, 87vw 140vw, 5vw 195vw, 87vw 230vw;
   }
 }
