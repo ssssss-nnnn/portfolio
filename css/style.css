@@ -79,6 +79,11 @@ img {
   background-size: contain;
   background-position: left -3px;
 }
+@media (min-width: 768px) {
+  .part3 {
+    padding-top: 2vw;
+  }
+}
 
 h2 {
   color: #fff;
@@ -210,6 +215,12 @@ small {
   background-position: 60vw 20vw;
   background-attachment: fixed;
 }
+@media (min-width: 768px) {
+  .skill_content_box {
+    background-size: 8vw auto;
+    background-position: 16vw 5vw;
+  }
+}
 
 .skill_content_box2 {
   background-image: url(../images/TOP1/fish8.png);
@@ -218,6 +229,12 @@ small {
   background-position: 20vw 20vw;
   background-attachment: fixed;
 }
+@media (min-width: 768px) {
+  .skill_content_box2 {
+    background-size: 8vw auto;
+    background-position: 50vw 50vw;
+  }
+}
 
 .skill_content_box3 {
   background-image: url(../images/TOP1/fish9.png);
@@ -225,6 +242,12 @@ small {
   background-size: 16vw auto;
   background-position: 60vw 20vw;
   background-attachment: fixed;
+}
+@media (min-width: 768px) {
+  .skill_content_box3 {
+    background-size: 8vw auto;
+    background-position: 77vw 20vw;
+  }
 }
 
 /* 泳ぐ魚終わり */
@@ -369,7 +392,7 @@ h4 {
 }
 @media (min-width: 768px) {
   .face img {
-    width: 45vw;
+    width: 36vw;
   }
 }
 
@@ -460,7 +483,7 @@ h4 {
 @media (min-width: 768px) {
   .door:hover {
     background-size: 45vw auto, 20vw auto, 20vw auto;
-    background-position: 43% 3vw, 38vw 0, 0 0;
+    background-position: 50% 0, 48vw 0, 9vw 0;
   }
 }
 
@@ -481,6 +504,13 @@ h4 {
   margin-top: 10vw;
   margin-bottom: 25vw;
 }
+@media (min-width: 768px) {
+  .door a {
+    margin-bottom: 0;
+    width: 25vw;
+    height: 80vw;
+  }
+}
 
 .door_works {
   margin-top: 10vw;
@@ -496,6 +526,13 @@ h4 {
 @media (min-width: 414px) {
   .door_works {
     height: 290px;
+  }
+}
+@media (min-width: 768px) {
+  .door_works {
+    width: 26vw;
+    height: 430px;
+    background-size: 52vw auto;
   }
 }
 
@@ -517,6 +554,13 @@ h4 {
 @media (min-width: 414px) {
   .door_100 {
     height: 290px;
+  }
+}
+@media (min-width: 768px) {
+  .door_100 {
+    width: 26vw;
+    height: 430px;
+    background-size: 52vw auto;
   }
 }
 

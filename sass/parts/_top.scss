@@ -176,7 +176,7 @@ h4{
   width: 55vw;
 
   @include v.me{
-    width: 45vw;
+    width: 36vw;
   }
 }
 
@@ -263,7 +263,7 @@ h4{
 
   @include v.me{
     background-size: 45vw auto, 20vw auto,20vw auto;
-    background-position: 43% 3vw, 38vw 0,0 0;
+    background-position: 50% 0, 48vw 0,9vw 0;
   }
 
   /* animation: fadeIn 3s ease 0s 1 normal;
@@ -288,6 +288,12 @@ h4{
   height: auto;
   margin-top: 10vw;
   margin-bottom: 25vw;
+
+  @include v.me{
+    margin-bottom: 0;
+    width: 25vw;
+    height: 80vw;
+  }
 }
 
 
@@ -305,6 +311,12 @@ h4{
 
   @include v.mb{
     height: 290px;
+  }
+
+  @include v.me{
+    width: 26vw;
+    height: 430px;
+    background-size: 52vw auto;
   }
 }
 
@@ -326,6 +338,13 @@ h4{
   @include v.mb{
     height: 290px;
   }
+
+  @include v.me{
+    width: 26vw;
+    height: 430px;
+    background-size: 52vw auto;
+  }
+  
 }
 
 .door_100:hover{

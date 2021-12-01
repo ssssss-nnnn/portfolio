@@ -74,6 +74,10 @@ img {
   background-image: url(../images/gallary_top.png);
   background-size: contain;
   background-position: left -3px;
+
+  @include v.me{
+    padding-top: 2vw;
+  }
 }
 
 h2 {
