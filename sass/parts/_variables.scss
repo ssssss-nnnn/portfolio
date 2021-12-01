@@ -35,7 +35,7 @@ $tablet: 960px;
 }
 
 //mediaquery4
-$pro: 1025px;
+$pro: 1024px;
 
 @mixin pr {
   @media (min-width: ($pro)) {

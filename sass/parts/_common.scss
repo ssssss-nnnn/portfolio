@@ -56,6 +56,10 @@ img {
   @include v.me{
     padding-bottom: 52vw;
   }
+
+  @include v.pr{
+  padding-bottom: 38vw;
+  }
 }
 
 .part2 {
@@ -65,6 +69,10 @@ img {
 
   @include v.mb{
     padding-bottom: 0;
+  }
+
+  @include v.pr{
+    padding-top: 0;
   }
 }
 
@@ -116,6 +124,10 @@ h3 {
   @include v.me{
     margin-bottom: -.5vw;
     margin-top: -7vw;
+  }
+
+  @include v.pr{
+    margin-top: -10vw;
   }
 }
 

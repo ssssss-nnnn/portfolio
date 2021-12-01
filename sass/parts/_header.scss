@@ -17,6 +17,10 @@
   @include v.me{
     width: 18vw;
   }
+
+  @include v.me{
+    width: 12vw;
+  }
 }
 
 #top_part {
@@ -42,6 +46,11 @@
 
   @include v.me{
     margin-bottom: 45vw;
+  }
+
+  @include v.pr{
+    margin-top: 10vw;
+    margin-bottom: 18vw;
   }
 }
 

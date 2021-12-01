@@ -20,6 +20,10 @@
     background-size: 8vw auto;
     background-position: 16vw 5vw;
   }
+
+  @include v.pr{
+    background-size: 6vw auto;
+  }
 }
 
 .skill_content_box2{
@@ -33,6 +37,11 @@
     background-size: 8vw auto;
     background-position: 50vw 50vw;
   }
+
+  @include v.pr{
+    background-size: 6vw auto;
+  }
+
 }
 
 .skill_content_box3{
@@ -45,6 +54,10 @@
   @include v.me{
     background-size: 8vw auto;
     background-position: 77vw 20vw;
+  }
+
+  @include v.pr{
+    background-size: 6vw auto;
   }
 }
 /* 泳ぐ魚終わり */
@@ -95,6 +108,10 @@ h4{
     height: 5rem;
     margin-bottom: 3rem;
   }
+
+  @include v.pr{
+    font-size: 1rem;
+  }
 }
 
 .part1 {
@@ -112,6 +129,11 @@ h4{
     background-image: url(../images/TOP1/fish1.png), url(../images/TOP1/fish2.png), url(../images/TOP1/fish3.png), url(../images/TOP1/fish4.png), url(../images/TOP1/fish5.png), url(../images/TOP1/fish6.png),url(../images/TOP1/bubble2.png),url(../images/TOP1/bubble2.png),url(../images/TOP1/bubble2.png),url(../images/TOP1/bubble2.png),;
     background-size: 8vw auto;
     background-position: 5vw 62vw, 3vw 182vw, 5vw 260vw, 87vw 62vw, 85vw 182vw, 87vw 260vw,5vw 100vw, 87vw 140vw, 5vw 195vw, 87vw 230vw;
+  }
+
+  @include v.pr{
+    background-size: 7vw auto;
+    background-position: 5vw 62vw, 3vw 145vw, 5vw 222vw, 87vw 62vw, 85vw 145vw, 87vw 222vw, 5vw 90vw, 87vw 120vw, 5vw 160vw, 87vw 180vw;
   }
 }
 
@@ -142,6 +164,10 @@ h4{
 
   @include v.me{
     width: 150%;
+  }
+
+  @include v.pr{
+    width: 100%;
   }
 }
 
@@ -178,6 +204,10 @@ h4{
   @include v.me{
     width: 36vw;
   }
+
+  @include v.pr{
+    width: 20vw;
+  }
 }
 
 .p_text p{
@@ -185,6 +215,10 @@ h4{
   position: relative;
   z-index: 9999 ;
   /* z-index効かない？ */
+
+  @include v.pr{
+    font-size: 1.2rem;
+  }
 }
 
 .p_text p:nth-of-type(3){
