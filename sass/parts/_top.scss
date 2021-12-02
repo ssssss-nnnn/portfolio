@@ -173,6 +173,11 @@ h4{
   @include v.pr{
     width: 100%;
   }
+
+  @include v.pr{
+    padding-bottom: 10%;
+  }
+
 }
 
 @keyframes load {
@@ -242,6 +247,10 @@ h4{
 .l-wave1, .r-wave2, .l-wave3, .r-wave4{
   position: absolute;
   z-index: 100;
+
+  @include v.pr{
+    width: 20%;
+  }
 }
 
 

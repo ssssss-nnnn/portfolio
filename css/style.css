@@ -434,6 +434,11 @@ h4 {
     width: 100%;
   }
 }
+@media (min-width: 1024px) {
+  .container-video #video {
+    padding-bottom: 10%;
+  }
+}
 
 @-webkit-keyframes load {
   100% {
@@ -506,6 +511,11 @@ h4 {
 .l-wave1, .r-wave2, .l-wave3, .r-wave4 {
   position: absolute;
   z-index: 100;
+}
+@media (min-width: 1024px) {
+  .l-wave1, .r-wave2, .l-wave3, .r-wave4 {
+    width: 20%;
+  }
 }
 
 .l-wave1 {
