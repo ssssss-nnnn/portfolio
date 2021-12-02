@@ -21,6 +21,10 @@
   @include v.me{
     width: 12vw;
   }
+
+  @include v.ab{
+    width: 9vw;
+  }
 }
 
 #top_part {
@@ -56,5 +60,9 @@
 
 .top_video video{
   width: 100%;
+
+  @include v.ab{
+    width: 80%;
+  }
 }
 

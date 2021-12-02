@@ -135,6 +135,10 @@ h4{
     background-size: 7vw auto;
     background-position: 5vw 62vw, 3vw 145vw, 5vw 222vw, 87vw 62vw, 85vw 145vw, 87vw 222vw, 5vw 90vw, 87vw 120vw, 5vw 160vw, 87vw 180vw;
   }
+
+  @include v.ab{
+    background-position: 5vw 62vw, 3vw 145vw, 5vw 200vw, 87vw 62vw, 85vw 145vw, 87vw 200vw, 5vw 90vw, 87vw 120vw, 5vw 160vw, 87vw 180vw;
+  }
 }
 
 
@@ -303,6 +307,11 @@ h4{
     background-position: 50% 0, 48vw 0,9vw 0;
   }
 
+  @include v.pr{
+    background-size: 35vw auto, 15vw auto, 15vw auto;
+    background-position: 50% 10vw, 45vw 10vw, 18vw 10vw;
+  }
+
   /* animation: fadeIn 3s ease 0s 1 normal;
   animation-name: fadein;
   animation-duration: 1.5s; */
@@ -330,6 +339,11 @@ h4{
     margin-bottom: 0;
     width: 25vw;
     height: 80vw;
+  }
+
+  @include v.pr{
+    width: 20vw;
+    height: 58vw;
   }
 }
 
@@ -360,6 +374,12 @@ h4{
     width: 24vw;
     height: 500px;
     background-size: 48vw auto;
+  }
+
+  @include v.pr{
+    width: 19.5vw;
+    height: 430px;
+    background-size: 39vw auto;
   }
 }
 
@@ -392,6 +412,12 @@ h4{
     width: 24vw;
     height: 500px;
     background-size: 48vw auto;
+  }
+
+  @include v.pr{
+    width: 19.5vw;
+    height: 430px;
+    background-size: 39vw auto;
   }
 }
 

@@ -99,6 +99,12 @@ h2 {
   font-family: 'Marcellus SC', serif;
 }
 
+.part3 h2{
+  @include v.pr{
+    margin-bottom: 0;
+  }
+}
+
 h3 {
   color: #fff;
   font-size: 2rem;
