@@ -24,6 +24,10 @@
   @include v.pr{
     background-size: 6vw auto;
   }
+
+  @include v.pc{
+    background-size: 5vw auto;
+  }
 }
 
 .skill_content_box2{
@@ -42,6 +46,10 @@
     background-size: 6vw auto;
   }
 
+  @include v.pc{
+    background-size: 4vw auto;
+  }
+
 }
 
 .skill_content_box3{
@@ -58,6 +66,10 @@
 
   @include v.pr{
     background-size: 6vw auto;
+  }
+
+  @include v.pc{
+    background-size: 5vw auto;
   }
 }
 /* 泳ぐ魚終わり */
@@ -93,6 +105,10 @@
 
   @include v.me{
     width: 11vw;
+  }
+
+  @include v.pc{
+    width: 10vw;
   }
 }
 
@@ -138,6 +154,11 @@ h4{
 
   @include v.ab{
     background-position: 5vw 62vw, 3vw 145vw, 5vw 200vw, 87vw 62vw, 85vw 145vw, 87vw 200vw, 5vw 90vw, 87vw 120vw, 5vw 160vw, 87vw 180vw;
+  }
+
+  @include v.pc{
+    background-size: 5vw auto;
+    background-position: 5vw 40vw, 3vw 110vw, 5vw 162vw, 87vw 40vw, 90vw 110vw, 87vw 162vw, 5vw 60vw, 90vw 90vw, 5vw 122vw, 90vw 140vw;
   }
 }
 

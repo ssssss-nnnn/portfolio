@@ -25,6 +25,12 @@
   @include v.ab{
     width: 9vw;
   }
+
+  @include v.ab{
+    width: 7vw;
+    bottom:3vw;
+    right: 3vw;
+  }
 }
 
 #top_part {
@@ -56,6 +62,11 @@
     margin-top: 10vw;
     margin-bottom: 18vw;
   }
+
+  @include v.pc{
+    margin-top: 7vw;
+    margin-bottom: 15vw;
+  }
 }
 
 .top_video video{
@@ -63,6 +74,10 @@
 
   @include v.ab{
     width: 80%;
+  }
+
+  @include v.pc{
+    width: 60%;
   }
 }
 

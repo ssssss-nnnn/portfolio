@@ -105,6 +105,12 @@ h2 {
   padding-top: 40vw;
   font-family: "Marcellus SC", serif;
 }
+@media (min-width: 1920px) {
+  h2 {
+    margin-bottom: 8vw;
+    padding-top: 28vw;
+  }
+}
 
 @media (min-width: 1024px) {
   .part3 h2 {
@@ -177,6 +183,13 @@ h3 {
     width: 9vw;
   }
 }
+@media (min-width: 1462px) {
+  .up_icon img {
+    width: 7vw;
+    bottom: 3vw;
+    right: 3vw;
+  }
+}
 
 #top_part {
   font-size: 1rem;
@@ -212,6 +225,12 @@ h3 {
     margin-bottom: 18vw;
   }
 }
+@media (min-width: 1920px) {
+  .top_video {
+    margin-top: 7vw;
+    margin-bottom: 15vw;
+  }
+}
 
 .top_video video {
   width: 100%;
@@ -219,6 +238,11 @@ h3 {
 @media (min-width: 1462px) {
   .top_video video {
     width: 80%;
+  }
+}
+@media (min-width: 1920px) {
+  .top_video video {
+    width: 60%;
   }
 }
 
@@ -269,6 +293,11 @@ small {
     background-size: 6vw auto;
   }
 }
+@media (min-width: 1920px) {
+  .skill_content_box {
+    background-size: 5vw auto;
+  }
+}
 
 .skill_content_box2 {
   background-image: url(../images/TOP1/fish8.png);
@@ -288,6 +317,11 @@ small {
     background-size: 6vw auto;
   }
 }
+@media (min-width: 1920px) {
+  .skill_content_box2 {
+    background-size: 4vw auto;
+  }
+}
 
 .skill_content_box3 {
   background-image: url(../images/TOP1/fish9.png);
@@ -305,6 +339,11 @@ small {
 @media (min-width: 1024px) {
   .skill_content_box3 {
     background-size: 6vw auto;
+  }
+}
+@media (min-width: 1920px) {
+  .skill_content_box3 {
+    background-size: 5vw auto;
   }
 }
 
@@ -343,6 +382,11 @@ small {
 @media (min-width: 768px) {
   .skill_content img {
     width: 11vw;
+  }
+}
+@media (min-width: 1920px) {
+  .skill_content img {
+    width: 10vw;
   }
 }
 
@@ -396,6 +440,12 @@ h4 {
 @media (min-width: 1462px) {
   .part1 {
     background-position: 5vw 62vw, 3vw 145vw, 5vw 200vw, 87vw 62vw, 85vw 145vw, 87vw 200vw, 5vw 90vw, 87vw 120vw, 5vw 160vw, 87vw 180vw;
+  }
+}
+@media (min-width: 1920px) {
+  .part1 {
+    background-size: 5vw auto;
+    background-position: 5vw 40vw, 3vw 110vw, 5vw 162vw, 87vw 40vw, 90vw 110vw, 87vw 162vw, 5vw 60vw, 90vw 90vw, 5vw 122vw, 90vw 140vw;
   }
 }
 
