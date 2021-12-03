@@ -25,6 +25,10 @@ body {
   @include v.me{
     max-width: 78%
   }
+
+  @include v.pc{
+    max-width: 65%
+  }
 }
 
 .part2_wrapper{

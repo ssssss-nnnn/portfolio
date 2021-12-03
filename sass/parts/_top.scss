@@ -26,7 +26,8 @@
   }
 
   @include v.pc{
-    background-size: 5vw auto;
+    background-size: 4vw auto;
+    background-position: 22vw 8vw;
   }
 }
 
@@ -47,7 +48,9 @@
   }
 
   @include v.pc{
-    background-size: 4vw auto;
+    background-size: 3vw auto;
+    background-position: 50vw 28vw;
+
   }
 
 }
@@ -69,7 +72,8 @@
   }
 
   @include v.pc{
-    background-size: 5vw auto;
+    background-size: 4vw auto;
+    background-position: 73vw 15vw;
   }
 }
 /* 泳ぐ魚終わり */
@@ -108,7 +112,7 @@
   }
 
   @include v.pc{
-    width: 10vw;
+    width: 8vw;
   }
 }
 
@@ -157,7 +161,7 @@ h4{
   }
 
   @include v.pc{
-    background-size: 5vw auto;
+    background-size: 4vw auto;
     background-position: 5vw 40vw, 3vw 110vw, 5vw 162vw, 87vw 40vw, 90vw 110vw, 87vw 162vw, 5vw 60vw, 90vw 90vw, 5vw 122vw, 90vw 140vw;
   }
 }

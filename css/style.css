@@ -27,6 +27,11 @@ body {
     max-width: 78%;
   }
 }
+@media (min-width: 1920px) {
+  .wrapper {
+    max-width: 65%;
+  }
+}
 
 @media (min-width: 768px) {
   .part2_wrapper {
@@ -295,7 +300,8 @@ small {
 }
 @media (min-width: 1920px) {
   .skill_content_box {
-    background-size: 5vw auto;
+    background-size: 4vw auto;
+    background-position: 22vw 8vw;
   }
 }
 
@@ -319,7 +325,8 @@ small {
 }
 @media (min-width: 1920px) {
   .skill_content_box2 {
-    background-size: 4vw auto;
+    background-size: 3vw auto;
+    background-position: 50vw 28vw;
   }
 }
 
@@ -343,7 +350,8 @@ small {
 }
 @media (min-width: 1920px) {
   .skill_content_box3 {
-    background-size: 5vw auto;
+    background-size: 4vw auto;
+    background-position: 73vw 15vw;
   }
 }
 
@@ -386,7 +394,7 @@ small {
 }
 @media (min-width: 1920px) {
   .skill_content img {
-    width: 10vw;
+    width: 8vw;
   }
 }
 
@@ -444,7 +452,7 @@ h4 {
 }
 @media (min-width: 1920px) {
   .part1 {
-    background-size: 5vw auto;
+    background-size: 4vw auto;
     background-position: 5vw 40vw, 3vw 110vw, 5vw 162vw, 87vw 40vw, 90vw 110vw, 87vw 162vw, 5vw 60vw, 90vw 90vw, 5vw 122vw, 90vw 140vw;
   }
 }
