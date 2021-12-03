@@ -409,6 +409,11 @@ h4 {
   -webkit-animation: load 1.5s 0.8s ease-out forwards;
           animation: load 1.5s 0.8s ease-out forwards;
 }
+@media (min-width: 1462px) {
+  .container-video {
+    height: auto;
+  }
+}
 
 .container-video #video {
   position: absolute;
@@ -432,11 +437,6 @@ h4 {
 @media (min-width: 1024px) {
   .container-video #video {
     width: 100%;
-  }
-}
-@media (min-width: 1024px) {
-  .container-video #video {
-    padding-bottom: 10%;
   }
 }
 
@@ -592,6 +592,12 @@ h4 {
     background-position: 50% 10vw, 45vw 10vw, 18vw 10vw;
   }
 }
+@media (min-width: 1462px) {
+  .door:hover {
+    background-size: 33vw auto, 12vw auto, 12vw auto;
+    background-position: 50% 10vw, 45vw 10vw, 21vw 10vw;
+  }
+}
 
 /* @keyframes fadein{
   from{
@@ -621,6 +627,12 @@ h4 {
   .door a {
     width: 20vw;
     height: 58vw;
+  }
+}
+@media (min-width: 1462px) {
+  .door a {
+    width: 15vw;
+    height: 50vw;
   }
 }
 
@@ -659,6 +671,13 @@ h4 {
     width: 19.5vw;
     height: 430px;
     background-size: 39vw auto;
+  }
+}
+@media (min-width: 1462px) {
+  .door_works {
+    width: 16vw;
+    height: 497px;
+    background-size: 32vw auto;
   }
 }
 
@@ -701,6 +720,13 @@ h4 {
     width: 19.5vw;
     height: 430px;
     background-size: 39vw auto;
+  }
+}
+@media (min-width: 1462px) {
+  .door_100 {
+    width: 16vw;
+    height: 497px;
+    background-size: 32vw auto;
   }
 }
 
