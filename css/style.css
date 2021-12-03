@@ -160,6 +160,11 @@ h3 {
     margin-top: -10vw;
   }
 }
+@media (min-width: 1920px) {
+  .top_wave img {
+    margin-top: -12vw;
+  }
+}
 
 /* ナブ */
 .up_icon {
@@ -656,6 +661,12 @@ h4 {
     background-position: 50% 10vw, 45vw 10vw, 21vw 10vw;
   }
 }
+@media (min-width: 1920px) {
+  .door:hover {
+    background-size: 30vw auto, 12vw auto, 12vw auto;
+    background-position: 50% 10vw, 38vw 10vw, 15vw 10vw;
+  }
+}
 
 /* @keyframes fadein{
   from{
@@ -738,6 +749,13 @@ h4 {
     background-size: 32vw auto;
   }
 }
+@media (min-width: 1920px) {
+  .door_works {
+    width: 12vw;
+    height: 490px;
+    background-size: 24vw auto;
+  }
+}
 
 .door_works:hover {
   background-position: left bottom;
@@ -785,6 +803,13 @@ h4 {
     width: 16vw;
     height: 497px;
     background-size: 32vw auto;
+  }
+}
+@media (min-width: 1920px) {
+  .door_100 {
+    width: 12vw;
+    height: 490px;
+    background-size: 24vw auto;
   }
 }
 

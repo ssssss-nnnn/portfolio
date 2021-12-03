@@ -129,6 +129,7 @@ h3 {
 .top_wave{
   margin-top: -8vh;
 }
+
 .top_wave img{
   vertical-align:bottom;
   margin-bottom: -.4vw;
@@ -144,6 +145,10 @@ h3 {
 
   @include v.pr{
     margin-top: -10vw;
+  }
+
+  @include v.pc{
+    margin-top: -12vw;
   }
 }
 
