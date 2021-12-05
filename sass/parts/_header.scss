@@ -8,23 +8,24 @@
 }
 
 .up_icon img{
-  width: 25vw;
+  width: 90px;
+  // width: 25vw;
   position: fixed;
   bottom:5vw;
   right: 5vw;
   z-index: 9999;
 
-  @include v.me{
-    width: 18vw;
-  }
+  // @include v.me{
+  //   width: 18vw;
+  // }
 
-  @include v.me{
-    width: 12vw;
-  }
+  // @include v.me{
+  //   width: 12vw;
+  // }
 
-  @include v.ab{
-    width: 9vw;
-  }
+  // @include v.ab{
+  //   width: 9vw;
+  // }
 
   @include v.ab{
     width: 7vw;
@@ -63,21 +64,23 @@
     margin-bottom: 18vw;
   }
 
+  @include v.ab{
+    margin-top: 4vw;
+    margin-bottom: 12vw;
+  }
+
   @include v.pc{
-    margin-top: 7vw;
-    margin-bottom: 15vw;
+    margin-top: 4vw;
+    margin-bottom: 12vw;
   }
 }
 
 .top_video video{
   width: 100%;
 
-  @include v.ab{
-    width: 80%;
-  }
-
-  @include v.pc{
+  @include v.pr{
     width: 60%;
   }
+
 }
 

@@ -53,6 +53,15 @@ $about: 1462px;
 }
 
 //mediaquery6
+$about: 1536px;
+
+@mixin mpc {
+  @media (min-width: ($about)) {
+    @content;
+  }
+}
+
+//mediaquery7
 $pc: 1920px;
 
 @mixin pc {

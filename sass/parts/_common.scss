@@ -26,8 +26,8 @@ body {
     max-width: 78%
   }
 
-  @include v.pc{
-    max-width: 65%
+  @include v.pr{
+    max-width: 60%
   }
 }
 

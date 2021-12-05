@@ -49,7 +49,7 @@
 
   @include v.pc{
     background-size: 3vw auto;
-    background-position: 50vw 28vw;
+    background-position: 50vw 16vw;
 
   }
 
@@ -100,6 +100,10 @@
 .skill_box img{
   width: 70vw;
   margin-bottom: 6vh;
+
+  @include v.pc{
+    width: 67vw;
+  }
 }
 
 /* アイコン */
@@ -111,8 +115,8 @@
     width: 11vw;
   }
 
-  @include v.pc{
-    width: 8vw;
+  @include v.ab{
+    width: 7vw;
   }
 }
 
