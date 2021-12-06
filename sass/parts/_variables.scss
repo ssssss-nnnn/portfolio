@@ -56,7 +56,7 @@ $about: 1462px;
 $about: 1536px;
 
 @mixin mpc {
-  @media (min-width: ($about)) {
+  @media (min-width: ($mypc)) {
     @content;
   }
 }
