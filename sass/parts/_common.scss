@@ -102,6 +102,11 @@ h2 {
   padding-top: 40vw;
   font-family: 'Marcellus SC', serif;
 
+  @include v.mpc{
+    margin-bottom: 8vw;
+    padding-top: 20vw;
+  }
+
   @include v.pc{
     margin-bottom: 8vw;
     padding-top: 28vw;
@@ -147,8 +152,8 @@ h3 {
     margin-top: -10vw;
   }
 
-  @include v.pc{
-    margin-top: -12vw;
+  @include v.mpc{
+    margin-top: -13vw;
   }
 }
 

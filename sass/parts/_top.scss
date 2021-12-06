@@ -25,7 +25,7 @@
     background-size: 6vw auto;
   }
 
-  @include v.pc{
+  @include v.mpc{
     background-size: 4vw auto;
     background-position: 22vw 8vw;
   }
@@ -47,7 +47,7 @@
     background-size: 6vw auto;
   }
 
-  @include v.pc{
+  @include v.mpc{
     background-size: 3vw auto;
     background-position: 50vw 16vw;
 
@@ -71,7 +71,7 @@
     background-size: 6vw auto;
   }
 
-  @include v.pc{
+  @include v.mpc{
     background-size: 4vw auto;
     background-position: 73vw 15vw;
   }
@@ -101,7 +101,7 @@
   width: 70vw;
   margin-bottom: 6vh;
 
-  @include v.pc{
+  @include v.mpc{
     width: 67vw;
   }
 }
@@ -118,6 +118,8 @@
   @include v.ab{
     width: 7vw;
   }
+
+  
 }
 
 h4{
@@ -165,8 +167,12 @@ h4{
     background-position: 5vw 62vw, 3vw 145vw, 5vw 200vw, 87vw 62vw, 85vw 145vw, 87vw 200vw, 5vw 90vw, 87vw 120vw, 5vw 160vw, 87vw 180vw;
   }
 
-  @include v.pc{
+  @include v.mpc{
     background-size: 4vw auto;
+    background-position: 4vw 35vw, 3vw 100vw, 5vw 150vw, 87vw 35vw, 85vw 100vw, 87vw 150vw, 5vw 55vw, 87vw 78vw, 5vw 110vw, 87vw 130vw;
+  }
+
+  @include v.pc{
     background-position: 5vw 40vw, 3vw 110vw, 5vw 162vw, 87vw 40vw, 90vw 110vw, 87vw 162vw, 5vw 60vw, 90vw 90vw, 5vw 122vw, 90vw 140vw;
   }
 }
@@ -358,8 +364,13 @@ h4{
     background-position: 50% 10vw, 45vw 10vw, 21vw 10vw;
   }
 
+  @include v.mpc{
+    background-size: 28vw auto, 9vw auto, 9vw auto;
+    background-position: 50% 6vw, 35vw 6vw, 16vw 6vw;
+  } 
+
   @include v.pc{
-    background-size: 30vw auto, 12vw auto, 12vw auto;
+    background-size: 25vw auto, 7vw auto, 7vw auto;
     background-position: 50% 10vw, 38vw 10vw, 15vw 10vw;
   }
   /* animation: fadeIn 3s ease 0s 1 normal;
@@ -399,6 +410,11 @@ h4{
   @include v.ab{
     width: 15vw;
     height: 50vw;
+  }
+
+  @include v.mpc{
+    width: 10vw;
+    height: 30vw;
   }
 }
 
@@ -441,6 +457,13 @@ h4{
   width: 16vw;
   height: 497px;
   background-size: 32vw auto;
+  }
+
+  @include v.mpc{
+    margin-top: 5vw;
+    width: 10vw;
+    height: 325px;
+    background-size: 20vw auto;
   }
 
   @include v.pc{
@@ -492,6 +515,13 @@ h4{
     height: 497px;
     background-size: 32vw auto;
     }
+
+  @include v.mpc{
+    margin-top: 5vw;
+    width: 10vw;
+    height: 325px;
+    background-size: 20vw auto;
+  }
 
   @include v.pc{
     width: 12vw;
