@@ -27,16 +27,20 @@
   <div class="wrapper_header">
     <header>
 
-      <!-- ナブタブ -->
-      <nav id="top_part">
-        <ul class="menu">
-          <li><a href="#top_part">Top</a></li>
-          <li><a href="#skill_part">Skill</a></li>
-          <li><a href="#history_part">History</a></li>
-          <li><a href="#gallary_part">Gallary</a></li>
-          <li class="contact"><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+      <!-- ハンバーガーメニュー -->
+      <div class="hbgmenu">
+        <div class="openbtn"><span></span><span></span><span></span></div>
+        <nav id="g-nav">
+          <ul class="menu">
+            <li><a href="#g-nav">Top</a></li>
+            <li><a href="#skill_part">Skill</a></li>
+            <li><a href="#history_part">History</a></li>
+            <li><a href="#gallary_part">Gallary</a></li>
+            <li class="contact"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div><!-- .hbgmenu -->
+
       <!-- トップの動画 -->
       <div class="top_video">
         <video id="top_video" src="images/topvideo.mp4" autoplay muted playsinline></video>
@@ -47,7 +51,7 @@
 
   <!-- UPアイコン -->
   <div id="go_up" class="up_icon">
-    <a  href="#top_part"><img src="images/TOP1/up.png" alt=""></a>
+    <a  href="#g-nav"><img src="images/TOP1/up.png" alt=""></a>
   </div>
 
   <!-- トップ波 -->
