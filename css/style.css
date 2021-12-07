@@ -292,13 +292,13 @@ small {
 }
 @media (min-width: 1024px) {
   .skill_content_box {
-    background-size: 6vw auto;
+    background-size: 5vw auto;
+    background-position: 22vw 8vw;
   }
 }
 @media (min-width: 1536px) {
   .skill_content_box {
     background-size: 4vw auto;
-    background-position: 22vw 8vw;
   }
 }
 
@@ -317,7 +317,7 @@ small {
 }
 @media (min-width: 1024px) {
   .skill_content_box2 {
-    background-size: 6vw auto;
+    background-size: 5vw auto;
   }
 }
 @media (min-width: 1536px) {
@@ -342,13 +342,13 @@ small {
 }
 @media (min-width: 1024px) {
   .skill_content_box3 {
-    background-size: 6vw auto;
+    background-size: 5vw auto;
+    background-position: 70vw 15vw;
   }
 }
 @media (min-width: 1536px) {
   .skill_content_box3 {
     background-size: 4vw auto;
-    background-position: 73vw 15vw;
   }
 }
 
@@ -660,7 +660,7 @@ h4 {
 @media (min-width: 1462px) {
   .door:hover {
     background-size: 33vw auto, 12vw auto, 12vw auto;
-    background-position: 50% 10vw, 45vw 10vw, 21vw 10vw;
+    background-position: 50% 10vw, 36vw 10vw, 13vw 10vw;
   }
 }
 @media (min-width: 1536px) {
@@ -708,13 +708,12 @@ h4 {
 }
 @media (min-width: 1462px) {
   .door a {
-    width: 15vw;
-    height: 50vw;
+    width: 10vw;
+    height: 40vw;
   }
 }
 @media (min-width: 1536px) {
   .door a {
-    width: 10vw;
     height: 30vw;
   }
 }
@@ -758,9 +757,10 @@ h4 {
 }
 @media (min-width: 1462px) {
   .door_works {
-    width: 16vw;
-    height: 497px;
-    background-size: 32vw auto;
+    margin-top: 7vw;
+    width: 12vw;
+    height: 400px;
+    background-size: 24vw auto;
   }
 }
 @media (min-width: 1536px) {
@@ -822,9 +822,10 @@ h4 {
 }
 @media (min-width: 1462px) {
   .door_100 {
-    width: 16vw;
-    height: 497px;
-    background-size: 32vw auto;
+    margin-top: 7vw;
+    width: 12vw;
+    height: 400px;
+    background-size: 24vw auto;
   }
 }
 @media (min-width: 1536px) {
