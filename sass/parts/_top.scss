@@ -439,11 +439,11 @@ h4{
     background-size: 52vw auto;
   }
 
-  @include v.tb{
-    width: 24vw;
-    height: 500px;
-    background-size: 48vw auto;
-  }
+  // @include v.tb{
+  //   width: 24vw;
+  //   height: 500px;
+  //   background-size: 48vw auto;
+  // }
 
   @include v.pr{
     width: 19.5vw;
@@ -497,11 +497,11 @@ h4{
     background-size: 52vw auto;
   }
   
-  @include v.tb{
-    width: 24vw;
-    height: 500px;
-    background-size: 48vw auto;
-  }
+  // @include v.tb{
+  //   width: 24vw;
+  //   height: 500px;
+  //   background-size: 48vw auto;
+  // }
 
   @include v.pr{
     width: 19.5vw;
