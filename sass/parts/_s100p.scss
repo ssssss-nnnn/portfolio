@@ -1,1 +1,51 @@
 @use "variables"as v;
+
+// 画像ホバーした時
+
+
+.big_item{
+  background: #ffafbd;
+}
+
+.big_item img {
+
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.big_item img:hover{
+  opacity: .3;
+  transition: opacity .5s;
+}
+
+
+.item img {
+  background: #ffafbd;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.item img:hover{
+  opacity: .6;
+}
+
+.hoverTx p{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: calc(50% -10px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  font-size: 1.4rem;
+  line-height: 1.7;
+  letter-spacing: .1em;
+  transition: all .6s;
+}
+
+.hoverTx p:hover{
+  opacity: 1;
+
+}
