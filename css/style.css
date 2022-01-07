@@ -897,6 +897,16 @@ input, textarea {
   border-radius: 10px;
 }
 
+.wrapper_100 {
+  width: 77%;
+  margin: 0 auto;
+}
+
+.box_wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .big_item {
   background: #ffafbd;
 }
@@ -924,11 +934,11 @@ input, textarea {
   opacity: 0.6;
 }
 
-.hoverTx p {
+.tx_on_grey {
   width: 100%;
   height: auto;
   position: absolute;
-  top: calc(50% -10px);
+  top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
