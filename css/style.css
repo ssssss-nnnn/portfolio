@@ -934,18 +934,14 @@ input, textarea {
   opacity: 0.6;
 }
 
-.tx_on_grey {
+.img_100 p {
   width: 100%;
   height: auto;
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
   opacity: 1;
   font-size: 1.4rem;
-  line-height: 1.7;
-  letter-spacing: 0.1em;
   -webkit-transition: all 0.6s;
   transition: all 0.6s;
 }

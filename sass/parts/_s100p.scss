@@ -37,17 +37,17 @@
   opacity: .6;
 }
 
-.tx_on_grey{
+.img_100 p{
   width: 100%;
   height: auto;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  // transform: translate(-50%, -50%);
   opacity: 1;
   font-size: 1.4rem;
-  line-height: 1.7;
-  letter-spacing: .1em;
+  // line-height: 1.7;
+  // letter-spacing: .1em;
   transition: all .6s;
 }
 
