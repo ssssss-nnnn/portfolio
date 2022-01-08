@@ -1,0 +1,11 @@
+////大きい写真////
+
+<div class="big_item">
+  <a href="#">
+    <img src="images/hundred/" alt="" class="pieces_of_me">
+    <p></p>
+  </a>
+</div><!-- big_item -->
+
+
+////小さい写真////
