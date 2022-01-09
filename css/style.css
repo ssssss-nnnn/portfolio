@@ -902,6 +902,13 @@ input, textarea {
   color: #fff;
 }
 
+.web_box, .card_box, .label_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
 .link {
   color: #fff;
 }
@@ -911,19 +918,29 @@ input, textarea {
   margin: 0 auto;
 }
 
-.web_box, .card_box, .label_box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 0 auto;
-}
-
 .web_design {
   margin: 3% 3%;
 }
 
 .web_design img {
   width: 10vw;
+  margin: 0 0.5rem;
+}
+
+.web_design img:first-child {
+  width: 100%;
+}
+
+.web_design img:nth-child(2) {
+  width: 70%;
+}
+
+.skillPage img {
+  margin: 0 50%;
+}
+
+.label_box p {
+  font-size: 0.8rem;
 }
 
 .design_img {
