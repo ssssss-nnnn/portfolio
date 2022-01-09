@@ -897,8 +897,31 @@ input, textarea {
   border-radius: 10px;
 }
 
-.works_title {
-  color: #000;
+.works_body {
+  background-color: #6794e0;
+  color: #fff;
+}
+
+.link {
+  color: #fff;
+}
+
+.works_bigBox {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.web_box, .card_box, .label_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+.design_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .wrapper_100 {

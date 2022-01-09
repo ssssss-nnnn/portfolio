@@ -1,5 +1,25 @@
 @use "variables"as v;
 
-.works_title{
-  color: #000;
+.works_body{
+  background-color: #6794e0;
+  color: #fff;
+}
+
+.link{
+  color: #fff;
+}
+
+.works_bigBox{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.web_box, .card_box, .label_box{
+  display: flex;
+  margin: 0 auto;
+}
+
+
+.design_img{
+  display: flex;
 }
