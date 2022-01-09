@@ -918,10 +918,30 @@ input, textarea {
   margin: 0 auto;
 }
 
+.web_design {
+  margin: 3% 3%;
+}
+
+.web_design img {
+  width: 10vw;
+}
+
 .design_img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.card_bigBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.card_design {
+  margin: 0 1rem;
 }
 
 .wrapper_100 {

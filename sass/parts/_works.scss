@@ -19,7 +19,24 @@
   margin: 0 auto;
 }
 
+.web_design{
+  margin: 3% 3% ;
+}
+
+.web_design img{
+  width: 10vw;
+}
 
 .design_img{
   display: flex;
+}
+
+.card_bigBox{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.card_design{
+  margin: 0 1rem;
 }
