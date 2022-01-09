@@ -897,6 +897,10 @@ input, textarea {
   border-radius: 10px;
 }
 
+.website {
+  color: #000;
+}
+
 .wrapper_100 {
   width: 77%;
   margin: 0 auto;
