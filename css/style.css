@@ -199,8 +199,6 @@ h3 {
 }
 
 .menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -252,15 +250,9 @@ footer {
   height: 3rem;
   background-color: #0B002E;
   color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 small {
@@ -270,8 +262,6 @@ small {
 /* ----------Part1 SKILL---------- */
 @media (min-width: 768px) {
   .skill_bigbox {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
 }
@@ -488,8 +478,7 @@ h4 {
   height: auto;
   z-index: -1000;
   overflow: hidden;
-  -webkit-transform: translate(-50%, -50%) scale(1.05);
-          transform: translate(-50%, -50%) scale(1.05);
+  transform: translate(-50%, -50%) scale(1.05);
   z-index: -100;
 }
 @media (min-width: 768px) {
@@ -611,11 +600,8 @@ h4 {
 
 /* ----------Part3 GALLARY---------- */
 .door {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .door::before {
@@ -624,8 +610,7 @@ h4 {
   background-size: 50vw auto, 30vw auto, 30vw auto;
   background-position: 50% 3vw, 44vw 0, 0 0;
   opacity: 0;
-  -webkit-transition-duration: 2s;
-          transition-duration: 2s;
+  transition-duration: 2s;
 }
 
 .door:hover {
@@ -852,8 +837,6 @@ h4 {
 }
 
 .bottom_img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 10vw auto;
   width: 60%;
@@ -884,8 +867,6 @@ input, textarea {
 }
 
 .button_box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -911,18 +892,31 @@ input, textarea {
   max-width: 100%;
 }
 
+.web_design {
+  margin: 0 auto;
+  text-align: center;
+}
+
 .web_design img:first-child {
   width: 55%;
+  height: 55%;
 }
 
 .web_design img:nth-child(2) {
-  width: 40%;
+  width: 35%;
+  height: 35%;
+}
+
+.web_design p {
+  margin: 10rem 0 2rem 0;
 }
 
 .design_img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
+}
+
+.design_img img {
+  margin: 0 auto;
 }
 
 .wrapper_100 {
@@ -952,13 +946,11 @@ input, textarea {
 
 .big_item img {
   opacity: 1;
-  -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 
 .big_item img:hover {
   opacity: 0.3;
-  -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
 }
 
@@ -979,7 +971,6 @@ input, textarea {
 
 .item img {
   opacity: 1;
-  -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 
@@ -996,7 +987,6 @@ input, textarea {
   opacity: 1;
   font-size: 1.4rem;
   letter-spacing: 0.1em;
-  -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
 

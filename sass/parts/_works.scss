@@ -14,16 +14,32 @@
   max-width: 100%;
 }
 
+.web_design{
+margin: 0 auto;
+text-align: center;
+}
+
 .web_design img:first-child{
   width: 55%;
+  height: 55%;
 }
 
 .web_design img:nth-child(2) {
-  width: 40%;
+  width: 35%;
+  height: 35%;
 }
+
+.web_design p {
+  margin: 10rem 0 2rem 0 ;
+}
+
 
 .design_img{
   display: flex;
+}
+
+.design_img img{
+  margin: 0 auto;
 }
 
 // .design_img img{
