@@ -1,68 +1,32 @@
 @use "variables"as v;
 
-.works_body{
+.works_body {
   background-color: #6794e0;
   color: #fff;
 }
 
-.web_box, .card_box, .label_box{
-  display: flex;
+.works_wrapper {
+  max-width: 90%;
   margin: 0 auto;
 }
 
-
-// サイトデザイン
-.link{
-  color: #fff;
-}
-
-.works_bigBox{
-  max-width: 80%;
-  margin: 0 auto;
-}
-
-
-.web_design{
-  margin: 3% 3% ;
-}
-
-.web_design img{
-  width: 10vw;
-  margin: 0 .5rem;
+.works_wrapper img{
+  max-width: 100%;
 }
 
 .web_design img:first-child{
-  width: 100%;
+  width: 55%;
 }
 
-.web_design img:nth-child(2){
-  width: 70%;
-}
-
-
-.skillPage img{
-margin: 0 50%;
-}
-
-
-.label_box p{
-  font-size: 0.8rem;
+.web_design img:nth-child(2) {
+  width: 40%;
 }
 
 .design_img{
   display: flex;
 }
 
-// 名刺デザイン
-
-.card_bigBox{
-  display: flex;
-  justify-content: space-around;
-}
-
-
-.card_design{
-  margin: 0 1rem;
-}
-
-// ラベル・ロゴデザイン
+// .design_img img{
+//   width: 55%;
+//   height: auto;
+// }

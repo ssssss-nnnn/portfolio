@@ -1,0 +1,87 @@
+@use "variables"as v;
+
+.works_body {
+  background-color: #6794e0;
+  color: #fff;
+}
+
+.web_box,
+.card_box,
+.label_box {
+
+  min-width: 320px;
+
+  @include v.pr {
+    display: flex;
+    margin: 0 auto;
+  }
+}
+
+
+// サイトデザイン
+.link {
+  color: #fff;
+}
+
+.works_bigBox {
+
+  width: 100%;
+  margin: 0 auto;
+
+  @include v.pr {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.web_design {
+  margin: 3% 3%;
+}
+
+.web_design img {
+  width: 10vw;
+  margin: 0 .5rem;
+}
+
+.web_design img:first-child {
+  width: 100%;
+}
+
+.web_design img:nth-child(2) {
+  width: 70%;
+}
+
+
+.skillPage img {
+  margin: 0 50%;
+}
+
+
+.label_box p {
+
+  @include v.pr {
+    font-size: 0.8rem;
+  }
+}
+
+.design_img {
+  display: flex;
+}
+
+// 名刺デザイン
+
+.card_bigBox {
+  @include v.pr {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+
+.card_design {
+  @include v.pr {
+    margin: 0 1rem;
+  }
+}
+
+// ラベル・ロゴデザイン

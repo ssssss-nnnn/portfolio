@@ -902,63 +902,27 @@ input, textarea {
   color: #fff;
 }
 
-.web_box, .card_box, .label_box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.works_wrapper {
+  max-width: 90%;
   margin: 0 auto;
 }
 
-.link {
-  color: #fff;
-}
-
-.works_bigBox {
-  max-width: 80%;
-  margin: 0 auto;
-}
-
-.web_design {
-  margin: 3% 3%;
-}
-
-.web_design img {
-  width: 10vw;
-  margin: 0 0.5rem;
+.works_wrapper img {
+  max-width: 100%;
 }
 
 .web_design img:first-child {
-  width: 100%;
+  width: 55%;
 }
 
 .web_design img:nth-child(2) {
-  width: 70%;
-}
-
-.skillPage img {
-  margin: 0 50%;
-}
-
-.label_box p {
-  font-size: 0.8rem;
+  width: 40%;
 }
 
 .design_img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.card_bigBox {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.card_design {
-  margin: 0 1rem;
 }
 
 .wrapper_100 {
