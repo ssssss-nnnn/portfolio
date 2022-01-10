@@ -898,13 +898,13 @@ input, textarea {
 }
 
 .web_design img:first-child {
-  width: 55%;
-  height: 55%;
+  width: 60%;
+  height: 60%;
 }
 
 .web_design img:nth-child(2) {
-  width: 35%;
-  height: 35%;
+  width: 30%;
+  height: 30%;
 }
 
 .web_design p {
