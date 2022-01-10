@@ -6,20 +6,26 @@
 }
 
 .works_wrapper {
-  max-width: 90%;
+  max-width: 87%;
   margin: 0 auto;
 }
 
-.works_wrapper img{
+.works_wrapper img {
   max-width: 100%;
 }
 
-.web_design{
-margin: 0 auto;
-text-align: center;
+.works_title {
+  margin-bottom: 3rem;
 }
 
-.web_design img:first-child{
+// サイトデザイン
+
+.web_design {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.web_design img:first-child {
   width: 60%;
   height: 60%;
 }
@@ -30,30 +36,30 @@ text-align: center;
 }
 
 .web_design p {
-  margin: 10rem 0 2rem 0 ;
+  margin: 10rem 0 2rem 0;
 }
 
-.web_design a{
+.web_design a {
   color: rgb(95, 95, 95);
   background-color: rgb(208, 232, 253);
   border-radius: 10px;
   padding: .5rem;
 }
 
-.web_design a:hover{
+.web_design a:hover {
   color: rgb(224, 224, 224);
   background-color: rgb(158, 162, 167);
 }
 
-.tatamiLink{
+.tatamiLink {
   margin-bottom: 1.5rem;
 }
 
-.design_img{
+.design_img {
   display: flex;
 }
 
-.design_img img{
+.design_img img {
   margin: 0 auto;
 }
 
@@ -61,3 +67,24 @@ text-align: center;
 //   width: 55%;
 //   height: auto;
 // }
+
+// 名刺
+
+.card_box {
+  margin-top: 10rem;
+}
+
+.card_design {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+// ラベル・ロゴデザイン
+.label_box {
+  margin-top: 10rem;
+}
+
+.label_design {
+  text-align: center;
+  margin-bottom: 3rem;
+}

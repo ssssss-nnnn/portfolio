@@ -884,12 +884,16 @@ input, textarea {
 }
 
 .works_wrapper {
-  max-width: 90%;
+  max-width: 87%;
   margin: 0 auto;
 }
 
 .works_wrapper img {
   max-width: 100%;
+}
+
+.works_title {
+  margin-bottom: 3rem;
 }
 
 .web_design {
@@ -933,6 +937,24 @@ input, textarea {
 
 .design_img img {
   margin: 0 auto;
+}
+
+.card_box {
+  margin-top: 10rem;
+}
+
+.card_design {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.label_box {
+  margin-top: 10rem;
+}
+
+.label_design {
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
 .wrapper_100 {
