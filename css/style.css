@@ -1016,6 +1016,11 @@ input, textarea {
     display: flex;
   }
 }
+@media (max-width: 960px) {
+  .photo_bigBox {
+    margin-bottom: 10rem;
+  }
+}
 
 .photo_box {
   margin-top: 6rem;
