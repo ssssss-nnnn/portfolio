@@ -912,6 +912,12 @@ input, textarea {
   }
 }
 
+@media (min-width: 768px) {
+  .web_box {
+    display: flex;
+  }
+}
+
 .web_design {
   margin: 0 auto;
   text-align: center;
@@ -926,6 +932,12 @@ input, textarea {
   width: 30%;
   height: 30%;
 }
+@media (max-width: 960px) {
+  .web_design img:nth-child(2) {
+    width: 27%;
+    height: 27%;
+  }
+}
 
 .web_design p {
   margin: 6rem 0 2rem 0;
@@ -934,6 +946,11 @@ input, textarea {
   .web_design p {
     font-size: 1.5rem;
     margin: 8rem 0 3rem 0;
+  }
+}
+@media (max-width: 960px) {
+  .web_design p {
+    font-size: 0.9rem;
   }
 }
 

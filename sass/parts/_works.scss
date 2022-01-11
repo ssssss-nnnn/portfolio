@@ -33,6 +33,12 @@
 
 // サイトデザイン
 
+.web_box{
+  @include v.me{
+    display: flex;
+  }
+}
+
 .web_design {
   margin: 0 auto;
   text-align: center;
@@ -46,6 +52,11 @@
 .web_design img:nth-child(2) {
   width: 30%;
   height: 30%;
+
+  @include v.tb{
+    width: 27%;
+    height: 27%;
+  }
 }
 
 .web_design p {
@@ -54,6 +65,10 @@
   @include v.me{
     font-size: 1.5rem;
     margin: 8rem 0 3rem 0;
+  }
+
+  @include v.tb{
+    font-size: 0.9rem;
   }
 }
 
