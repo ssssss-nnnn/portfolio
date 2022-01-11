@@ -8,14 +8,27 @@
 .works_wrapper {
   max-width: 87%;
   margin: 0 auto;
+
+  @include v.me{
+    max-width: 90%;
+  }
 }
 
 .works_wrapper img {
   width: 80%;
+
+  @include v.me{
+    width: 93%;
+}
 }
 
 .works_title {
   margin-bottom: 3rem;
+
+  @include v.me{
+    font-size: 2rem;
+    margin-top: 18rem;
+  }
 }
 
 // サイトデザイン
@@ -37,6 +50,11 @@
 
 .web_design p {
   margin: 6rem 0 2rem 0;
+
+  @include v.me{
+    font-size: 1.5rem;
+    margin: 8rem 0 3rem 0;
+  }
 }
 
 .web_design a {
@@ -70,8 +88,13 @@
 
 // 名刺
 
+
 .card_box {
   margin-top: 5rem;
+
+  @include v.me{
+    display: flex;
+  }
 }
 
 .card_design {
@@ -82,14 +105,28 @@
 // ラベル・ロゴデザイン
 .label_box {
   margin-top: 6rem;
+
+  @include v.me{
+    display: flex;
+  }
 }
 
 .label_design {
   text-align: center;
   margin-bottom: 3rem;
+
+  @include v.me{
+    width: 50%;
+  }
 }
 
 // 写真
+.photo_bigBox{
+  @include v.me{
+    display: flex;
+  }
+}
+
 .photo_box {
   margin-top: 6rem;
 }
