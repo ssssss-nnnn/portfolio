@@ -1097,14 +1097,18 @@ input, textarea {
   margin: 0 auto;
 }
 
-.twoBox {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+@media (min-width: 768px) {
+  .twoBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .box_1, .box_2, .box_3, .box_4 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  position: relative;
 }
 
 .big_item {
@@ -1147,19 +1151,21 @@ input, textarea {
 }
 
 .big_item p, .item p {
-  width: 100%;
-  height: auto;
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
   opacity: 1;
-  font-size: 1.4rem;
-  letter-spacing: 0.1em;
   transition: all 0.4s;
+  font-size: 0.6rem;
+  width: 100%;
+  text-align: center;
 }
-
-.item p {
-  font-size: 0.9rem;
+@media (min-width: 768px) {
+  .big_item p, .item p {
+    font-size: 1.4rem;
+    letter-spacing: 0.1em;
+  }
 }
 
 .big_item p, .item p:hover {
