@@ -1114,7 +1114,7 @@ input, textarea {
   }
 }
 
-.box_1, .box_2, .box_3, .box_4 {
+.box_1, .box_2, .box_3, .box_4, .box_5, .box_6 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
@@ -1123,7 +1123,7 @@ input, textarea {
 }
 
 @media (min-width: 768px) {
-  .box_2, .box_4 {
+  .box_2, .box_4, .box_6 {
     margin-left: 15px;
   }
 }
@@ -1149,12 +1149,17 @@ input, textarea {
 }
 
 .big_2 {
-  grid-column: 2/4;
+  grid-column: 1/3;
   grid-row: 2/4;
 }
 
 .big_3 {
-  grid-column: 1/3;
+  grid-column: 2/4;
+  grid-row: 1/3;
+}
+
+.big_4 {
+  grid-column: 2/4;
   grid-row: 2/4;
 }
 
@@ -1185,7 +1190,7 @@ input, textarea {
 }
 @media (min-width: 768px) {
   .big_item p, .item p {
-    font-size: 1.4rem;
+    font-size: 1rem;
     letter-spacing: 0.1em;
   }
 }
