@@ -1099,7 +1099,7 @@ input, textarea {
 .wrapper_100 p {
   width: 80%;
   text-align: center;
-  margin-bottom: 10vw;
+  margin: 0 auto 10vw;
 }
 
 .box_wrapper {
@@ -1114,7 +1114,7 @@ input, textarea {
   }
 }
 
-.box_1, .box_2, .box_3, .box_4, .box_5, .box_6, .box_7, .box_8, .box_9, .box_10, .box_11, .box_12, .box_13, .box_14 {
+.box_1, .box_2, .box_3, .box_4, .box_5, .box_6, .box_7, .box_8, .box_9, .box_10, .box_11, .box_12, .box_13, .box_14, .box_15, .box_16, .box_17, .box_18 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -1123,7 +1123,7 @@ input, textarea {
 }
 
 @media (min-width: 768px) {
-  .box_2, .box_4, .box_6, .box_8, .box_10, .box_12, .box_14 {
+  .box_2, .box_4, .box_6, .box_8, .box_10, .box_12, .box_14, .box_16, .box_18 {
     margin-left: 20px;
   }
 }
@@ -1136,6 +1136,7 @@ input, textarea {
 .big_item img {
   opacity: 1;
   transition: 0.3s ease-in-out;
+  vertical-align: bottom;
 }
 
 .big_item img:hover {
@@ -1163,6 +1164,11 @@ input, textarea {
   grid-row: 2/4;
 }
 
+.lastBox {
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+
 .item {
   background: #afffbc;
   position: relative;
@@ -1182,7 +1188,7 @@ input, textarea {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity: 1;
+  opacity: 0;
   transition: all 0.4s;
   font-size: 0.6rem;
   width: 100%;
