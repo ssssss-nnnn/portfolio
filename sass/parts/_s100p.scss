@@ -27,17 +27,17 @@
   }
 }
 
-.box_1, .box_2, .box_3, .box_4, .box_5, .box_6, .box_7,.box_8, .box_9,.box_10, .box_11, .box_12 {
+.box_1, .box_2, .box_3, .box_4, .box_5, .box_6, .box_7,.box_8, .box_9,.box_10, .box_11, .box_12, .box_13, .box_14 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
+  gap: 20px;
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
-.box_2, .box_4, .box_6, .box_8, .box_10, .box_12{
+.box_2, .box_4, .box_6, .box_8, .box_10, .box_12, .box_14{
   @include v.me{
-    margin-left: 15px;
+    margin-left: 20px;
   }
 }
 
