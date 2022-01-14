@@ -35,7 +35,7 @@
   margin-bottom: 20px;
 }
 
-.box_2, .box_4, .box_6, .box_8, .box_10, .box_12, .box_14, .box_16, .box_18{
+.box_2, .box_4, .box_6, .box_8, .box_10, .box_12, .box_14, .box_16{
   @include v.me{
     margin-left: 20px;
     width: 100%;
@@ -43,9 +43,19 @@
   }
 }
 
-// 画像のずれを調整
-.box_1 img, .box_2 img, .box_3 img, .box_4 img, .box_5 img, .box_6 img, .box_7 img,.box_8 img, .box_9 img,.box_10 img, .box_11 img, .box_12 img, .box_13 img, .box_14 img, .box_15 img, .box_16 img, .box_17 img, .box_18 img{
-  vertical-align: bottom;
+.box_17{
+  @include v.me{
+  width: 100%;
+  height: 86%;
+}
+}
+
+.box_18{
+  @include v.me{
+    margin-left: 20px;
+    width: 100%;
+    height: 86%;
+  }
 }
 
 .big_item{
@@ -54,10 +64,14 @@
 }
 
 .big_item img {
+  position: relative;
+  // z-indexを指定したい要素にはpositionを指定する
   opacity: 1;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
-  // vertical-align: bottom;
+  // 画像のずれを調整
+  vertical-align: bottom;
+  z-index: 100;
 }
 
 .big_item img:hover{
@@ -93,16 +107,21 @@
 
 
 
+
 .item{
   background: #afffbc;
   position: relative;
 }
 
 .item img {
+  position: relative;
+  // z-indexを指定したい要素にはpositionを指定する
   opacity: 1;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
-  // vertical-align: bottom;
+  // 画像のずれを調整
+  vertical-align: bottom;
+  z-index: 100;
 }
 
 .item img:hover{
@@ -111,6 +130,7 @@
 
 .big_item p, .item p{
   position: absolute;
+  z-index: 1;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);
@@ -126,10 +146,4 @@
   font-size: 1rem;
   letter-spacing: .1em;
   }
-}
-
-
-.big_item p, .item p:hover{
-  opacity: 1;
-
 }

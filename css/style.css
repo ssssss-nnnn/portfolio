@@ -1123,15 +1123,26 @@ input, textarea {
 }
 
 @media (min-width: 768px) {
-  .box_2, .box_4, .box_6, .box_8, .box_10, .box_12, .box_14, .box_16, .box_18 {
+  .box_2, .box_4, .box_6, .box_8, .box_10, .box_12, .box_14, .box_16 {
     margin-left: 20px;
     width: 100%;
     height: 95%;
   }
 }
 
-.box_1 img, .box_2 img, .box_3 img, .box_4 img, .box_5 img, .box_6 img, .box_7 img, .box_8 img, .box_9 img, .box_10 img, .box_11 img, .box_12 img, .box_13 img, .box_14 img, .box_15 img, .box_16 img, .box_17 img, .box_18 img {
-  vertical-align: bottom;
+@media (min-width: 768px) {
+  .box_17 {
+    width: 100%;
+    height: 86%;
+  }
+}
+
+@media (min-width: 768px) {
+  .box_18 {
+    margin-left: 20px;
+    width: 100%;
+    height: 86%;
+  }
 }
 
 .big_item {
@@ -1140,8 +1151,11 @@ input, textarea {
 }
 
 .big_item img {
+  position: relative;
   opacity: 1;
   transition: 0.3s ease-in-out;
+  vertical-align: bottom;
+  z-index: 100;
 }
 
 .big_item img:hover {
@@ -1180,8 +1194,11 @@ input, textarea {
 }
 
 .item img {
+  position: relative;
   opacity: 1;
   transition: 0.3s ease-in-out;
+  vertical-align: bottom;
+  z-index: 100;
 }
 
 .item img:hover {
@@ -1190,6 +1207,7 @@ input, textarea {
 
 .big_item p, .item p {
   position: absolute;
+  z-index: 1;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -1204,9 +1222,5 @@ input, textarea {
     font-size: 1rem;
     letter-spacing: 0.1em;
   }
-}
-
-.big_item p, .item p:hover {
-  opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */
