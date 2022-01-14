@@ -15,10 +15,6 @@
   margin: 0 auto 10vw;
 }
 
-// .wrapper_100 img{
-//   vertical-align: bottom;
-// }
-
 .box_wrapper{
   width: 90%;
   margin: 0 auto;
@@ -42,7 +38,14 @@
 .box_2, .box_4, .box_6, .box_8, .box_10, .box_12, .box_14, .box_16, .box_18{
   @include v.me{
     margin-left: 20px;
+    width: 100%;
+    height: 95%;
   }
+}
+
+// 画像のずれを調整
+.box_1 img, .box_2 img, .box_3 img, .box_4 img, .box_5 img, .box_6 img, .box_7 img,.box_8 img, .box_9 img,.box_10 img, .box_11 img, .box_12 img, .box_13 img, .box_14 img, .box_15 img, .box_16 img, .box_17 img, .box_18 img{
+  vertical-align: bottom;
 }
 
 .big_item{
@@ -54,7 +57,7 @@
   opacity: 1;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
-  vertical-align: bottom;
+  // vertical-align: bottom;
 }
 
 .big_item img:hover{
@@ -89,6 +92,7 @@
 }
 
 
+
 .item{
   background: #afffbc;
   position: relative;
@@ -98,7 +102,7 @@
   opacity: 1;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
-  
+  // vertical-align: bottom;
 }
 
 .item img:hover{
