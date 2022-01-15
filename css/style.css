@@ -597,16 +597,6 @@ h4 {
   right: 0;
 }
 
-.part2 p {
-  position: relative;
-  z-index: 100;
-}
-
-.part2 img {
-  position: relative;
-  z-index: 1;
-}
-
 /* ----------Part3 GALLARY---------- */
 .door {
   display: flex;
@@ -1097,7 +1087,7 @@ input, textarea {
 }
 
 .works_body h2 {
-  letter-spacing: 0.1em;
+  letter-spacing: 0.1rem;
 }
 
 .wrapper_100 {
@@ -1142,7 +1132,13 @@ input, textarea {
 @media (min-width: 768px) {
   .box_17 {
     width: 100%;
-    height: 86%;
+  }
+}
+
+@media (min-width: 768px) {
+  .box_17 .item {
+    width: 100%;
+    height: 98%;
   }
 }
 
@@ -1150,7 +1146,13 @@ input, textarea {
   .box_18 {
     margin-left: 20px;
     width: 100%;
-    height: 86%;
+  }
+}
+
+@media (min-width: 768px) {
+  .box_18 .item {
+    width: 100%;
+    height: 98%;
   }
 }
 

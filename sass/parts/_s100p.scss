@@ -1,7 +1,7 @@
 @use "variables"as v;
 
 .works_body h2{
-  letter-spacing: .1em;
+  letter-spacing: .1rem;
 }
 
 .wrapper_100{
@@ -46,15 +46,29 @@
 .box_17{
   @include v.me{
   width: 100%;
-  height: 86%;
+  // height: 86%;
 }
+}
+
+.box_17 .item{
+  @include v.me{
+    width: 100%;
+    height: 98%;
+  }
 }
 
 .box_18{
   @include v.me{
     margin-left: 20px;
     width: 100%;
-    height: 86%;
+    // height: 86%;
+  }
+}
+
+.box_18 .item{
+  @include v.me{
+    width: 100%;
+    height: 98%;
   }
 }
 
