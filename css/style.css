@@ -476,7 +476,6 @@ h4 {
   min-height: 100%;
   width: 200%;
   height: auto;
-  z-index: -1000;
   overflow: hidden;
   transform: translate(-50%, -50%) scale(1.05);
   z-index: -100;
@@ -540,7 +539,7 @@ h4 {
 .p_text p {
   margin-bottom: 30vw;
   position: relative;
-  z-index: 9999;
+  z-index: 999;
   /* z-index効かない？ */
 }
 
@@ -596,6 +595,16 @@ h4 {
 .r-wave4 {
   top: 10vw;
   right: 0;
+}
+
+.part2 p {
+  position: relative;
+  z-index: 100;
+}
+
+.part2 img {
+  position: relative;
+  z-index: 1;
 }
 
 /* ----------Part3 GALLARY---------- */
