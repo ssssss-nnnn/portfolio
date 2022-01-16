@@ -3,84 +3,185 @@
 // @include v
 
 /* ナブ */
-.up_icon{
+.up_icon {
   padding-left: 250px;
 }
 
-.up_icon img{
+.up_icon img {
   width: 90px;
   // width: 25vw;
   position: fixed;
-  bottom:5vw;
+  bottom: 5vw;
   right: 5vw;
   z-index: 9999;
 
-  // @include v.me{
-  //   width: 18vw;
-  // }
-
-  // @include v.me{
-  //   width: 12vw;
-  // }
-
-  // @include v.ab{
-  //   width: 9vw;
-  // }
-
-  @include v.ab{
+  @include v.ab {
     width: 7vw;
-    bottom:3vw;
+    bottom: 3vw;
     right: 3vw;
   }
 }
 
+// ハンバーガーメニュー
+// ハンバーガーメニュー
+
+// ボタン
+.openbtn {
+  position: fixed;
+  z-index: 99991;
+  /*ボタンを最前面に*/
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+  width: 80px;
+  height: 50px;
+}
+
+/*×に変化*/
+.openbtn span {
+  display: inline-block;
+  transition: all .2s;
+  position: absolute;
+  left: 14px;
+  height: 6px;
+  border-bottom: 3px outset rgba(#ada9a9, .7);
+  // border-right: 3px outset #ada9a9;
+  border-radius: 2px;
+  background-color: v.$w-font;
+  width: 60%;
+}
+
+.openbtn span:nth-of-type(1) {
+  top: 15px;
+}
+
+.openbtn span:nth-of-type(2) {
+  top: 30px;
+}
+
+.openbtn span:nth-of-type(3) {
+  top: 45px;
+}
+
+.openbtn.active span {
+  background-color: #000E6B;
+}
+
+.openbtn.active span:nth-of-type(1) {
+  top: 18px;
+  left: 18px;
+  transform: translateY(6px) rotate(-45deg);
+  width: 50%;
+}
+
+.openbtn.active span:nth-of-type(2) {
+  opacity: 0;
+}
+
+.openbtn.active span:nth-of-type(3) {
+  top: 30px;
+  left: 18px;
+  transform: translateY(-6px) rotate(45deg);
+  width: 50%;
+}
+
+// ボタンここまで
+
+// ナブ開いたら
 #g-nav {
-  font-size: 1rem;
-  padding-top: 30px;
+
+  // font-size: 1rem;
+  // padding-top: 30px;
   font-family: 'Marcellus SC', serif;
+
+  /*position:fixed;にし、z-indexの数値を大きくして前面へ*/
+  position: fixed;
+  z-index: 9999;
+  /*ナビのスタート位置と形状*/
+  top: 0;
+  left: -120%;
+  width: 100%;
+  height: 100vh;
+  /*ナビの高さ*/
+  background: rgba(255, 255, 255, 1.0);
+  /*動き*/
+  transition: all 0.6s;
+}
+
+/*アクティブクラスがついたら位置を0に*/
+#g-nav.panelactive {
+  left: 0;
 }
 
 
-.menu{
-  display: flex;
+/*ナビゲーション*/
+#g-nav ul {
+  /*ナビゲーション天地中央揃え*/
+  position: absolute;
+  z-index: 9999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-.top_video{
+// ナブ開いたらここまで
+
+// リストのレイアウト
+#g-nav li a {
+  display: none;
+  color: #142a8a;
+  padding: 10px;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  font-size: v.rem(28);
+}
+
+.menu {
+  margin: 0 auto;
+}
+
+// リストのレイアウトここまで
+
+// ハンバーガーメニューここまで
+
+.top_video {
   width: 100%;
   margin-top: 20vw;
   margin-bottom: 80vw;
   text-align: center;
 
-  @include v.mb{
+  @include v.mb {
     margin-bottom: 60vw;
   }
 
-  @include v.me{
+  @include v.me {
     margin-bottom: 45vw;
   }
 
-  @include v.pr{
+  @include v.pr {
     margin-top: 10vw;
     margin-bottom: 18vw;
   }
 
-  @include v.ab{
+  @include v.ab {
     margin-top: 4vw;
     margin-bottom: 12vw;
   }
 
-  @include v.pc{
+  @include v.pc {
     margin-top: 4vw;
     margin-bottom: 12vw;
   }
 }
 
-.top_video video{
+.top_video video {
   width: 100%;
 
-  @include v.pr{
+  @include v.pr {
     width: 60%;
   }
 
 }
-
