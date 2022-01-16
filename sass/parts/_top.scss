@@ -85,6 +85,7 @@
   background-repeat: no-repeat;
   background-size: 70px;
   background-position: 0 0, 60vw 205vw;
+  margin: 0 2%;
 
   @include v.mb{
     background-position: 0 0, 50vw 205vw;
