@@ -149,7 +149,7 @@ h3 {
 @media (min-width: 768px) {
   .top_wave img {
     margin-bottom: -0.5vw;
-    margin-top: -10vw;
+    margin-top: -12vw;
   }
 }
 @media (min-width: 1536px) {
@@ -515,7 +515,7 @@ h4 {
   .part1 {
     background-image: url(../images/TOP1/fish1.png), url(../images/TOP1/fish2.png), url(../images/TOP1/fish3.png), url(../images/TOP1/fish4.png), url(../images/TOP1/fish5.png), url(../images/TOP1/fish6.png), url(../images/TOP1/bubble2.png), url(../images/TOP1/bubble2.png), url(../images/TOP1/bubble2.png), url(../images/TOP1/bubble2.png);
     background-size: 6%;
-    background-position: 5vw 62vw, 3vw 182vw, 5vw 260vw, 87vw 62vw, 85vw 182vw, 87vw 260vw, 5vw 100vw, 87vw 140vw, 5vw 195vw, 87vw 230vw;
+    background-position: 5vw 62vw, 3vw 182vw, 5vw 240vw, 91vw 62vw, 89vw 182vw, 91vw 240vw, 5vw 100vw, 87vw 140vw, 5vw 195vw, 87vw 230vw;
   }
 }
 @media (min-width: 1024px) {
