@@ -440,6 +440,7 @@ small {
 @media (min-width: 768px) {
   .skill_box {
     background-image: none;
+    width: 30%;
   }
 }
 
@@ -456,8 +457,13 @@ small {
 
 /* アイコン */
 .skill_content img {
-  width: 32vw;
+  width: 50%;
   margin: 4vw auto 2vw auto;
+}
+@media (min-width: 414px) {
+  .skill_content img {
+    width: 48%;
+  }
 }
 @media (min-width: 768px) {
   .skill_content img {
@@ -478,6 +484,7 @@ h4 {
 .skill_content p {
   -moz-text-align-last: left;
        text-align-last: left;
+  margin-bottom: 2rem;
 }
 @media (min-width: 768px) {
   .skill_content p {

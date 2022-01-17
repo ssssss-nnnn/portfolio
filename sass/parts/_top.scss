@@ -93,6 +93,7 @@
 
   @include v.me{
     background-image: none;
+    width: 30%;
   }
 }
 
@@ -108,8 +109,12 @@
 
 /* アイコン */
 .skill_content img{
-  width: 32vw;
+  width: 50%;
   margin: 4vw auto 2vw auto;
+
+  @include v.mb{
+    width: 48%;;
+  }
 
   @include v.me{
     width: 11vw;
@@ -129,6 +134,7 @@ h4{
 
 .skill_content p{
   text-align-last: left;
+  margin-bottom: 2rem;
 
   @include v.me{
     font-size: 0.8rem;
