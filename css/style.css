@@ -508,7 +508,7 @@ h4 {
 @media (min-width: 414px) {
   .part1 {
     background-size: 20vw auto;
-    background-position: 5vw 95vw, 5vw 440vw, 5vw 795vw, 75vw 460vw, 75vw 815vw, 75vw 1100vw;
+    background-position: 5vw 95vw, 5vw 460vw, 5vw 840vw, 75vw 480vw, 75vw 860vw, 75vw 1150vw;
   }
 }
 @media (min-width: 768px) {
