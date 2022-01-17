@@ -56,19 +56,9 @@ img {
   padding-bottom: 80vw;
   color: #142a8a;
 }
-@media (min-width: 414px) {
-  .part1 {
-    padding-bottom: 63vw;
-  }
-}
 @media (min-width: 768px) {
   .part1 {
-    padding-bottom: 52vw;
-  }
-}
-@media (min-width: 1024px) {
-  .part1 {
-    padding-bottom: 38vw;
+    padding-bottom: 55vw;
   }
 }
 
@@ -333,7 +323,7 @@ h3 {
 }
 @media (min-width: 1024px) {
   .top_video video {
-    width: 60%;
+    width: 80%;
   }
 }
 
@@ -511,19 +501,18 @@ h4 {
 @media (min-width: 414px) {
   .part1 {
     background-size: 20vw auto;
-    background-position: 5vw 95vw, 5vw 440vw, 5vw 787vw, 75vw 420vw, 75vw 765vw, 75vw 1041vw;
+    background-position: 5vw 95vw, 5vw 440vw, 5vw 795vw, 75vw 460vw, 75vw 815vw, 75vw 1100vw;
   }
 }
 @media (min-width: 768px) {
   .part1 {
     background-image: url(../images/TOP1/fish1.png), url(../images/TOP1/fish2.png), url(../images/TOP1/fish3.png), url(../images/TOP1/fish4.png), url(../images/TOP1/fish5.png), url(../images/TOP1/fish6.png), url(../images/TOP1/bubble2.png), url(../images/TOP1/bubble2.png), url(../images/TOP1/bubble2.png), url(../images/TOP1/bubble2.png);
-    background-size: 8vw auto;
+    background-size: 6%;
     background-position: 5vw 62vw, 3vw 182vw, 5vw 260vw, 87vw 62vw, 85vw 182vw, 87vw 260vw, 5vw 100vw, 87vw 140vw, 5vw 195vw, 87vw 230vw;
   }
 }
 @media (min-width: 1024px) {
   .part1 {
-    background-size: 7vw auto;
     background-position: 5vw 62vw, 3vw 145vw, 5vw 222vw, 87vw 62vw, 85vw 145vw, 87vw 222vw, 5vw 90vw, 87vw 120vw, 5vw 160vw, 87vw 180vw;
   }
 }
@@ -534,7 +523,6 @@ h4 {
 }
 @media (min-width: 1536px) {
   .part1 {
-    background-size: 4vw auto;
     background-position: 4vw 35vw, 3vw 100vw, 5vw 150vw, 87vw 35vw, 85vw 100vw, 87vw 150vw, 5vw 55vw, 87vw 78vw, 5vw 110vw, 87vw 130vw;
   }
 }

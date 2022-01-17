@@ -55,17 +55,17 @@ img {
   padding-bottom: 80vw;
   color: #142a8a;
 
-  @include v.mb{
-    padding-bottom: 63vw;
-  }
+  // @include v.mb{
+  //   padding-bottom: 63vw;
+  // }
 
   @include v.me{
-    padding-bottom: 52vw;
+    padding-bottom: 55vw;
   }
 
-  @include v.pr{
-  padding-bottom: 38vw;
-  }
+  // @include v.pr{
+  // padding-bottom: 38vw;
+  // }
 }
 
 .part2 {
