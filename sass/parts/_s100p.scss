@@ -165,3 +165,28 @@
   letter-spacing: .1em;
   }
 }
+
+// モーダルウィンドウの設定
+
+// #text_boxをはじめは非表示
+#text_box{
+  display: none;
+}
+
+// モーダルの横幅を変更したい場合
+.modal-container{
+  max-width: 600px;
+}
+
+// モーダルのボタンの色を変更したい場合
+.modal-close:after, 
+.modal-close:before{
+  background:#ccc;  
+}
+
+.modal-close:focus:after,
+.modal-close:focus:before,
+.modal-close:hover:after,
+.modal-close:hover:before{
+  background:#666;
+}

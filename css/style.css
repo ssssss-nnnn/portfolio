@@ -1330,4 +1330,24 @@ input, textarea {
     letter-spacing: 0.1em;
   }
 }
+
+#text_box {
+  display: none;
+}
+
+.modal-container {
+  max-width: 600px;
+}
+
+.modal-close:after,
+.modal-close:before {
+  background: #ccc;
+}
+
+.modal-close:focus:after,
+.modal-close:focus:before,
+.modal-close:hover:after,
+.modal-close:hover:before {
+  background: #666;
+}
 /*# sourceMappingURL=style.css.map */
