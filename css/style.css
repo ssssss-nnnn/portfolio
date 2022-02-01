@@ -1334,4 +1334,27 @@ input, textarea {
 #text_box {
   display: none;
 }
+
+#text_box img {
+  width: 200px;
+  height: 200px;
+}
+
+.modaal-close:after,
+.modaal-close:before {
+  background: #ccc;
+}
+
+.modaal-close:focus:after,
+.modaal-close:focus:before,
+.modaal-close:hover:after,
+.modaal-close:hover:before {
+  background: #666;
+}
+
+#modaal-title {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
 /*# sourceMappingURL=style.css.map */
